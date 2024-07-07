@@ -1,0 +1,2525 @@
+{
+  "results": {
+    "copyright": "Copyright (c) 2024 QuoteMedia, Inc.",
+    "symbolcount": 40,
+    "quote": [
+      {
+        "key": {
+          "symbol": "PLC:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Park Lawn Corporation",
+          "shortname": "PLC:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 25.95,
+          "change": 9.60,
+          "changepercent": 58.715595,
+          "tick": 1,
+          "open": 25.95,
+          "high": 25.98,
+          "low": 25.89,
+          "prevclose": 16.35,
+          "bid": 25.94,
+          "ask": 25.95,
+          "bidsize": 18900,
+          "asksize": 2900,
+          "rawbidsize": 18900,
+          "rawasksize": 2900,
+          "tradevolume": 3993,
+          "sharevolume": 4097587,
+          "vwap": 16.442255,
+          "vwapvolume": 4049600,
+          "lasttradedatetime": "2024-06-04T14:51:10-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:27-04:00",
+          "totalvalue": 106206046.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 34396525,
+          "shareclasslevelsharesoutstanding": 34466909,
+          "totalsharesoutstanding": 34396525,
+          "marketcap": 892589824,
+          "pbratio": 865.0,
+          "week52high": {
+            "date": "2023-07-11",
+            "content": 25.54
+          },
+          "week52low": {
+            "date": "2024-04-16",
+            "content": 15.48
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 0.456,
+            "yield": 2.789,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.114
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-15",
+            "declaredDate": "2024-03-25"
+          }
+        },
+        "symbolstring": "PLC:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "NA:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "National Bank of Canada",
+          "shortname": "NA:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 118.21,
+          "change": 1.01,
+          "changepercent": 0.861775,
+          "tick": 0,
+          "open": 116.69,
+          "high": 118.34,
+          "low": 116.69,
+          "prevclose": 117.20,
+          "bid": 118.18,
+          "ask": 118.21,
+          "bidsize": 400,
+          "asksize": 300,
+          "rawbidsize": 400,
+          "rawasksize": 300,
+          "tradevolume": 3995,
+          "sharevolume": 484601,
+          "vwap": 117.110905,
+          "vwapvolume": 478400,
+          "lasttradedatetime": "2024-06-04T14:52:28-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 57084425.70
+        },
+        "fundamental": {
+          "sharesoutstanding": 340040496,
+          "shareclasslevelsharesoutstanding": 339884503,
+          "totalsharesoutstanding": 340040496,
+          "marketcap": 40196187032,
+          "eps": 9.79,
+          "peratio": 12.07,
+          "pbratio": 1.893,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 117.59
+          },
+          "week52low": {
+            "date": "2023-10-25",
+            "content": 84.27
+          },
+          "dividend": {
+            "date": "2024-06-24",
+            "amount": 4.40,
+            "yield": 3.754,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 1.1
+            },
+            "frequency": "Q",
+            "paydate": "2024-08-01",
+            "declaredDate": "2024-05-28"
+          }
+        },
+        "symbolstring": "NA:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "L:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Loblaw Companies Limited",
+          "shortname": "L:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 160.10,
+          "change": 0.48,
+          "changepercent": 0.300714,
+          "tick": -1,
+          "open": 160.00,
+          "high": 161.50,
+          "low": 159.51,
+          "prevclose": 159.62,
+          "bid": 160.08,
+          "ask": 160.17,
+          "bidsize": 100,
+          "asksize": 300,
+          "rawbidsize": 100,
+          "rawasksize": 300,
+          "tradevolume": 2580,
+          "sharevolume": 312855,
+          "vwap": 159.517593,
+          "vwapvolume": 308100,
+          "lasttradedatetime": "2024-06-04T14:52:26-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:27-04:00",
+          "totalvalue": 50210374.70
+        },
+        "fundamental": {
+          "sharesoutstanding": 307405575,
+          "shareclasslevelsharesoutstanding": 306737513,
+          "totalsharesoutstanding": 307405575,
+          "marketcap": 49215632558,
+          "eps": 5.6,
+          "peratio": 23.19,
+          "pbratio": 4.437,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 160.21
+          },
+          "week52low": {
+            "date": "2023-10-30",
+            "content": 110.52
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 2.052,
+            "yield": 1.286,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.513
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-01",
+            "declaredDate": "2024-05-02"
+          }
+        },
+        "symbolstring": "L:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "COMM:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO Global Communications Index ETF",
+          "shortname": "COMM:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 33.54,
+          "change": 0.43,
+          "changepercent": 1.298701,
+          "tick": 1,
+          "open": 33.28,
+          "high": 33.54,
+          "low": 33.28,
+          "prevclose": 33.11,
+          "bid": 33.43,
+          "ask": 33.54,
+          "bidsize": 1600,
+          "asksize": 1200,
+          "rawbidsize": 1600,
+          "rawasksize": 1200,
+          "tradevolume": 8,
+          "sharevolume": 1921,
+          "vwapvolume": 1900,
+          "lasttradedatetime": "2024-06-04T14:44:08-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:12-04:00",
+          "totalvalue": 64078.7299
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 849000,
+          "peratio": 19.53,
+          "week52high": {
+            "date": null,
+            "content": 33.11
+          },
+          "week52low": {
+            "date": null,
+            "content": 26.187531
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 0.44,
+            "yield": 1.329,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.11
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "COMM:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EMA.PR.F:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Emera Incorporated Cumulative Rate Reset First Preferred Shares Series F",
+          "shortname": "EMA.PR.F:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 19.93,
+          "change": 0.35,
+          "changepercent": 1.787538,
+          "tick": 1,
+          "open": 19.93,
+          "high": 19.93,
+          "low": 19.93,
+          "prevclose": 19.58,
+          "bid": 19.60,
+          "ask": 19.96,
+          "bidsize": 500,
+          "asksize": 3300,
+          "rawbidsize": 500,
+          "rawasksize": 3300,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwap": 19.639932,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T14:32:32-04:00",
+          "lastquotedatetime": "2024-06-04T14:42:39-04:00",
+          "totalvalue": 1993.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 286346776,
+          "shareclasslevelsharesoutstanding": 8000000,
+          "totalsharesoutstanding": 286346776,
+          "marketcap": 5706891246,
+          "eps": 3.7,
+          "peratio": 21.9,
+          "pbratio": 0.519,
+          "week52high": {
+            "date": "2024-01-24",
+            "content": 19.90
+          },
+          "week52low": {
+            "date": null,
+            "content": 15.502205
+          },
+          "dividend": {
+            "date": "2024-04-30",
+            "amount": 1.05052,
+            "yield": 5.365,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.26263
+            },
+            "frequency": "Q",
+            "paydate": "2024-05-15",
+            "declaredDate": "2024-04-12"
+          }
+        },
+        "symbolstring": "EMA.PR.F:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ALA:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "AltaGas Ltd.",
+          "shortname": "ALA:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 31.30,
+          "change": 0.33,
+          "changepercent": 1.065547,
+          "tick": 0,
+          "open": 30.85,
+          "high": 31.31,
+          "low": 30.75,
+          "prevclose": 30.97,
+          "bid": 31.30,
+          "ask": 31.31,
+          "bidsize": 700,
+          "asksize": 800,
+          "rawbidsize": 700,
+          "rawasksize": 800,
+          "tradevolume": 2059,
+          "sharevolume": 316124,
+          "vwap": 30.976944,
+          "vwapvolume": 314200,
+          "lasttradedatetime": "2024-06-04T14:49:32-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:50-04:00",
+          "totalvalue": 9845330.98
+        },
+        "fundamental": {
+          "sharesoutstanding": 296192818,
+          "shareclasslevelsharesoutstanding": 296204043,
+          "totalsharesoutstanding": 296192818,
+          "marketcap": 9270835203,
+          "eps": 1.99,
+          "peratio": 14.09,
+          "pbratio": 1.266,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 31.21
+          },
+          "week52low": {
+            "date": "2023-06-26",
+            "content": 22.62
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 1.19,
+            "yield": 3.842,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.2975
+            },
+            "frequency": "Q",
+            "paydate": "2024-06-28",
+            "declaredDate": "2024-05-02"
+          }
+        },
+        "symbolstring": "ALA:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "NXTG:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "First Trust Indxx NextG ETF",
+          "shortname": "NXTG:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 10.51,
+          "change": 0.30,
+          "changepercent": 2.938296,
+          "tick": 1,
+          "open": 10.51,
+          "high": 10.51,
+          "low": 10.51,
+          "prevclose": 10.21,
+          "bid": 10.51,
+          "ask": 10.55,
+          "bidsize": 7900,
+          "asksize": 8500,
+          "rawbidsize": 7900,
+          "rawasksize": 8500,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T10:46:15-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:22-04:00",
+          "totalvalue": 1051.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 140000,
+          "peratio": 0.26,
+          "week52high": {
+            "date": null,
+            "content": 10.60
+          },
+          "week52low": {
+            "date": null,
+            "content": 8.57
+          }
+        },
+        "symbolstring": "NXTG:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RUD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Quant U.S. Dividend Leaders ETF",
+          "shortname": "RUD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 65.81,
+          "change": 0.25,
+          "changepercent": 0.38133,
+          "tick": 1,
+          "open": 65.83,
+          "high": 65.83,
+          "low": 65.63,
+          "prevclose": 65.56,
+          "bid": 65.82,
+          "ask": 65.88,
+          "bidsize": 1200,
+          "asksize": 6700,
+          "rawbidsize": 1200,
+          "rawasksize": 6700,
+          "tradevolume": 7,
+          "sharevolume": 407,
+          "vwap": 65.443043,
+          "vwapvolume": 300,
+          "lasttradedatetime": "2024-06-04T14:41:06-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 26778.23
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 8000000,
+          "peratio": 5.53,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 65.71
+          },
+          "week52low": {
+            "date": "2023-06-26",
+            "content": 49.44
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.90462,
+            "yield": 1.38,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.08
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RUD:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "XMI:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "iShares MSCI Min Vol EAFE Index ETF",
+          "shortname": "XMI:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 37.55,
+          "change": 0.21,
+          "changepercent": 0.5624,
+          "tick": 0,
+          "open": 37.43,
+          "high": 37.55,
+          "low": 37.43,
+          "prevclose": 37.34,
+          "bid": 37.54,
+          "ask": 37.56,
+          "bidsize": 400,
+          "asksize": 400,
+          "rawbidsize": 400,
+          "rawasksize": 400,
+          "tradevolume": 6,
+          "sharevolume": 1010,
+          "vwapvolume": 1000,
+          "lasttradedatetime": "2024-06-04T14:52:08-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:15-04:00",
+          "totalvalue": 37873.2999
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2900000,
+          "peratio": 16.2,
+          "week52high": {
+            "date": null,
+            "content": 37.44
+          },
+          "week52low": {
+            "date": null,
+            "content": 33.050615
+          },
+          "dividend": {
+            "date": "2023-12-29",
+            "amount": 0.838933333,
+            "yield": 2.247,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.3612
+            },
+            "frequency": "S"
+          }
+        },
+        "symbolstring": "XMI:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "AQN.PR.D:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Algonquin Power & Utilities Corp. cumulative rate reset preferred shares Series D",
+          "shortname": "AQN.PR.D:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 22.81,
+          "change": 0.18,
+          "changepercent": 0.795404,
+          "tick": 1,
+          "open": 22.61,
+          "high": 23.32,
+          "low": 22.61,
+          "prevclose": 22.63,
+          "bid": 22.80,
+          "ask": 23.36,
+          "bidsize": 4500,
+          "asksize": 100,
+          "rawbidsize": 4500,
+          "rawasksize": 100,
+          "tradevolume": 6,
+          "sharevolume": 1000,
+          "vwap": 22.893889,
+          "vwapvolume": 1000,
+          "lasttradedatetime": "2024-06-04T12:55:37-04:00",
+          "lastquotedatetime": "2024-06-04T14:48:56-04:00",
+          "totalvalue": 22801.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 689726691,
+          "shareclasslevelsharesoutstanding": 4000000,
+          "totalsharesoutstanding": 689726691,
+          "marketcap": 15732665822,
+          "eps": 0.02,
+          "peratio": 225.0,
+          "pbratio": 3.359,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 23.10
+          },
+          "week52low": {
+            "date": null,
+            "content": 17.744221
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 1.27276,
+            "yield": 5.624,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.42831
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-02",
+            "declaredDate": "2024-05-10"
+          }
+        },
+        "symbolstring": "AQN.PR.D:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RUDH:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Quant U.S. Dividend Leaders (CAD Hedged) ETF",
+          "shortname": "RUDH:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 46.01,
+          "change": 0.16,
+          "changepercent": 0.348964,
+          "tick": -1,
+          "open": 46.01,
+          "high": 46.01,
+          "low": 46.01,
+          "prevclose": 45.85,
+          "bid": 45.88,
+          "ask": 45.93,
+          "bidsize": 2000,
+          "asksize": 1000,
+          "rawbidsize": 2000,
+          "rawasksize": 1000,
+          "tradevolume": 2,
+          "sharevolume": 105,
+          "vwap": 45.584286,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T09:30:00-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 4831.39999
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2900000,
+          "peratio": 5.53,
+          "week52high": {
+            "date": "2024-05-27",
+            "content": 45.67
+          },
+          "week52low": {
+            "date": "2023-10-27",
+            "content": 34.85
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.66185,
+            "yield": 1.444,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.065
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RUDH:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "DRMD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Desjardins RI Developed ex-USA ex-Canada - Net-Zero Emissions Pathway ETF",
+          "shortname": "DRMD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 28.26,
+          "change": 0.14,
+          "changepercent": 0.497866,
+          "tick": 1,
+          "open": 28.15,
+          "high": 28.26,
+          "low": 28.15,
+          "prevclose": 28.12,
+          "bid": 28.18,
+          "ask": 28.27,
+          "bidsize": 100,
+          "asksize": 100,
+          "rawbidsize": 100,
+          "rawasksize": 100,
+          "tradevolume": 2,
+          "sharevolume": 500,
+          "vwap": 28.10,
+          "vwapvolume": 500,
+          "lasttradedatetime": "2024-06-04T14:25:58-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:33-04:00",
+          "totalvalue": 14086.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 150000,
+          "peratio": 28.76,
+          "week52high": {
+            "date": "2024-05-15",
+            "content": 28.22
+          },
+          "week52low": {
+            "date": null,
+            "content": 22.543359
+          },
+          "dividend": {
+            "date": "2024-03-20",
+            "amount": 0.22413,
+            "yield": 0.797,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.0861
+            },
+            "frequency": "Q",
+            "paydate": "2024-03-28",
+            "declaredDate": "2024-03-13"
+          }
+        },
+        "symbolstring": "DRMD:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ZTIP:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO Short-Term US TIPS Index ETF",
+          "shortname": "ZTIP:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 31.47,
+          "change": 0.13,
+          "changepercent": 0.414805,
+          "tick": -1,
+          "open": 31.47,
+          "high": 31.47,
+          "low": 31.47,
+          "prevclose": 31.34,
+          "bid": 31.45,
+          "ask": 31.49,
+          "bidsize": 1200,
+          "asksize": 1200,
+          "rawbidsize": 1200,
+          "rawasksize": 1200,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwap": 31.36,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T10:06:14-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:11-04:00",
+          "totalvalue": 3147.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 150000,
+          "week52high": {
+            "date": null,
+            "content": 31.44
+          },
+          "week52low": {
+            "date": null,
+            "content": 28.938198
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 1.28,
+            "yield": 4.084,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.3
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "ZTIP:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RUQQ:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2028 U.S. Corporate Bond ETF",
+          "shortname": "RUQQ:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.27,
+          "change": 0.13,
+          "changepercent": 0.645482,
+          "tick": 1,
+          "open": 20.27,
+          "high": 20.27,
+          "low": 20.27,
+          "prevclose": 20.14,
+          "bid": 20.22,
+          "ask": 20.27,
+          "bidsize": 7500,
+          "asksize": 2500,
+          "rawbidsize": 7500,
+          "rawasksize": 2500,
+          "tradevolume": 1,
+          "sharevolume": 900,
+          "vwapvolume": 900,
+          "lasttradedatetime": "2024-06-04T14:37:43-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:41-04:00",
+          "totalvalue": 18243.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 100000,
+          "week52high": {
+            "date": null,
+            "content": 20.184933
+          },
+          "week52low": {
+            "date": "2024-04-25",
+            "content": 19.89
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.54,
+            "yield": 2.681,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.045
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RUQQ:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "INE.PR.A:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Innergex Renewable Energy Inc. Cumulative Rate Reset Preferred Shares Series A",
+          "shortname": "INE.PR.A:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 13.73,
+          "change": 0.13,
+          "changepercent": 0.955882,
+          "tick": 0,
+          "open": 13.60,
+          "high": 13.83,
+          "low": 13.55,
+          "prevclose": 13.60,
+          "bid": 13.73,
+          "ask": 13.81,
+          "bidsize": 800,
+          "asksize": 100,
+          "rawbidsize": 800,
+          "rawasksize": 100,
+          "tradevolume": 14,
+          "sharevolume": 1600,
+          "vwap": 13.688,
+          "vwapvolume": 1600,
+          "lasttradedatetime": "2024-06-04T14:40:53-04:00",
+          "lastquotedatetime": "2024-06-04T14:42:41-04:00",
+          "totalvalue": 21856.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 204401736,
+          "shareclasslevelsharesoutstanding": 3400000,
+          "totalsharesoutstanding": 204401736,
+          "marketcap": 2806435835,
+          "pbratio": 2.63,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 13.71
+          },
+          "week52low": {
+            "date": null,
+            "content": 11.034494
+          },
+          "dividend": {
+            "date": "2024-06-28",
+            "amount": 0.8112,
+            "yield": 5.965,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.20275
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-15",
+            "declaredDate": "2024-05-13"
+          }
+        },
+        "symbolstring": "INE.PR.A:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "FGOV:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Franklin Canadian Government Bond Fund",
+          "shortname": "FGOV:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.32,
+          "change": 0.13,
+          "changepercent": 0.643883,
+          "tick": 1,
+          "open": 20.32,
+          "high": 20.32,
+          "low": 20.32,
+          "prevclose": 20.19,
+          "bid": 20.27,
+          "ask": 20.33,
+          "bidsize": 5000,
+          "asksize": 4600,
+          "rawbidsize": 5000,
+          "rawasksize": 4600,
+          "tradevolume": 1,
+          "sharevolume": 400,
+          "vwapvolume": 400,
+          "lasttradedatetime": "2024-06-04T09:45:18-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 8128.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 50000,
+          "week52high": {
+            "date": null,
+            "content": 20.19
+          },
+          "week52low": {
+            "date": null,
+            "content": 19.592209
+          },
+          "dividend": {
+            "date": "2024-05-31",
+            "amount": 0.59374,
+            "yield": 2.941,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.049478
+            },
+            "frequency": "M",
+            "paydate": "2024-06-10",
+            "declaredDate": "2024-05-24"
+          }
+        },
+        "symbolstring": "FGOV:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ZCDB:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO Corporate Discount Bond ETF",
+          "shortname": "ZCDB:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 29.36,
+          "change": 0.12,
+          "changepercent": 0.410397,
+          "tick": 1,
+          "open": 29.36,
+          "high": 29.36,
+          "low": 29.36,
+          "prevclose": 29.24,
+          "bid": 29.28,
+          "ask": 29.37,
+          "bidsize": 6200,
+          "asksize": 5000,
+          "rawbidsize": 6200,
+          "rawasksize": 5000,
+          "tradevolume": 1,
+          "sharevolume": 2200,
+          "vwap": 29.12,
+          "vwapvolume": 2200,
+          "lasttradedatetime": "2024-06-04T13:00:24-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:46-04:00",
+          "totalvalue": 64592.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 1418001,
+          "peratio": 7.2,
+          "week52high": {
+            "date": "2024-03-08",
+            "content": 29.25
+          },
+          "week52low": {
+            "date": null,
+            "content": 27.218547
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 0.66,
+            "yield": 2.257,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.15
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "ZCDB:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RUQO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2026 U.S. Corporate Bond ETF",
+          "shortname": "RUQO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.10,
+          "change": 0.11,
+          "changepercent": 0.550275,
+          "tick": 1,
+          "open": 20.10,
+          "high": 20.10,
+          "low": 20.10,
+          "prevclose": 19.99,
+          "bid": 20.06,
+          "ask": 20.09,
+          "bidsize": 4500,
+          "asksize": 5500,
+          "rawbidsize": 4500,
+          "rawasksize": 5500,
+          "tradevolume": 1,
+          "sharevolume": 2100,
+          "vwapvolume": 2100,
+          "lasttradedatetime": "2024-06-04T12:59:26-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:14-04:00",
+          "totalvalue": 42210.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 100000,
+          "week52high": {
+            "date": "2024-05-22",
+            "content": 20.08
+          },
+          "week52low": {
+            "date": null,
+            "content": 19.815471
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.54,
+            "yield": 2.701,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.045
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RUQO:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RUDB:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC U.S. Discount Bond ETF",
+          "shortname": "RUDB:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.54,
+          "change": 0.11,
+          "changepercent": 0.538424,
+          "tick": 1,
+          "open": 20.54,
+          "high": 20.54,
+          "low": 20.54,
+          "prevclose": 20.43,
+          "bid": 20.49,
+          "ask": 20.54,
+          "bidsize": 1200,
+          "asksize": 2200,
+          "rawbidsize": 1200,
+          "rawasksize": 2200,
+          "tradevolume": 1,
+          "sharevolume": 1000,
+          "vwap": 20.40,
+          "vwapvolume": 1000,
+          "lasttradedatetime": "2024-06-04T11:07:47-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:01-04:00",
+          "totalvalue": 20540.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2450000,
+          "week52high": {
+            "date": "2024-05-08",
+            "content": 20.52
+          },
+          "week52low": {
+            "date": null,
+            "content": 18.913091
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.393,
+            "yield": 1.924,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.025
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RUDB:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TILV:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "TD Q International Low Volatility ETF",
+          "shortname": "TILV:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 15.96,
+          "change": 0.10,
+          "changepercent": 0.630517,
+          "tick": -1,
+          "open": 15.96,
+          "high": 15.96,
+          "low": 15.96,
+          "prevclose": 15.86,
+          "bid": 15.93,
+          "ask": 16.00,
+          "bidsize": 600,
+          "asksize": 20000,
+          "rawbidsize": 600,
+          "rawasksize": 20000,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T10:21:56-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:33-04:00",
+          "totalvalue": 1596.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 4300000,
+          "peratio": 15.21,
+          "week52high": {
+            "date": null,
+            "content": 15.86
+          },
+          "week52low": {
+            "date": null,
+            "content": 13.903398
+          },
+          "dividend": {
+            "date": "2024-03-26",
+            "amount": 0.53011,
+            "yield": 3.342,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.11
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-04",
+            "declaredDate": "2024-03-15"
+          }
+        },
+        "symbolstring": "TILV:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "CAGS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "CI Canadian Short-Term Aggregate Bond Index ETF",
+          "shortname": "CAGS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 46.50,
+          "change": 0.10,
+          "changepercent": 0.215517,
+          "tick": -1,
+          "open": 46.50,
+          "high": 46.50,
+          "low": 46.50,
+          "prevclose": 46.40,
+          "bid": 46.45,
+          "ask": 46.53,
+          "bidsize": 2500,
+          "asksize": 2500,
+          "rawbidsize": 2500,
+          "rawasksize": 2500,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T13:48:37-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:44-04:00",
+          "totalvalue": 4650.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 1150000,
+          "peratio": 14.16,
+          "week52high": {
+            "date": null,
+            "content": 46.40
+          },
+          "week52low": {
+            "date": null,
+            "content": 42.705238
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 1.1934,
+            "yield": 2.572,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.0909
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-13"
+          }
+        },
+        "symbolstring": "CAGS:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ZBBB:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO BBB Corporate Bond Index ETF",
+          "shortname": "ZBBB:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 27.87,
+          "change": 0.09,
+          "changepercent": 0.323974,
+          "tick": 1,
+          "open": 27.87,
+          "high": 27.87,
+          "low": 27.87,
+          "prevclose": 27.78,
+          "bid": 27.85,
+          "ask": 27.89,
+          "bidsize": 100,
+          "asksize": 10100,
+          "rawbidsize": 100,
+          "rawasksize": 10100,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T11:34:27-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 2787.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 689000,
+          "week52high": {
+            "date": "2023-12-21",
+            "content": 27.85
+          },
+          "week52low": {
+            "date": null,
+            "content": 25.553
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 0.97,
+            "yield": 3.492,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.25
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "ZBBB:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RQS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2030 Canadian Corporate Bond Index ETF",
+          "shortname": "RQS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.37,
+          "change": 0.08,
+          "changepercent": 0.394283,
+          "tick": -1,
+          "open": 20.37,
+          "high": 20.37,
+          "low": 20.37,
+          "prevclose": 20.29,
+          "bid": 20.37,
+          "ask": 20.41,
+          "bidsize": 2000,
+          "asksize": 8800,
+          "rawbidsize": 2000,
+          "rawasksize": 8800,
+          "tradevolume": 4,
+          "sharevolume": 1830,
+          "vwapvolume": 1800,
+          "lasttradedatetime": "2024-06-04T09:30:00-04:00",
+          "lastquotedatetime": "2024-06-04T14:39:21-04:00",
+          "totalvalue": 37277.10
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 400000,
+          "week52high": {
+            "date": "2024-05-21",
+            "content": 20.35
+          },
+          "week52low": {
+            "date": null,
+            "content": 19.880671
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.48,
+            "yield": 2.366,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.04
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RQS:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ESGE:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO MSCI EAFE ESG Leaders Index ETF",
+          "shortname": "ESGE:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 35.20,
+          "change": 0.07,
+          "changepercent": 0.19926,
+          "tick": 1,
+          "open": 35.30,
+          "high": 35.30,
+          "low": 35.20,
+          "prevclose": 35.13,
+          "bid": 35.15,
+          "ask": 35.34,
+          "bidsize": 600,
+          "asksize": 1300,
+          "rawbidsize": 600,
+          "rawasksize": 1300,
+          "tradevolume": 3,
+          "sharevolume": 600,
+          "vwap": 35.17,
+          "vwapvolume": 600,
+          "lasttradedatetime": "2024-06-04T11:11:52-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:33-04:00",
+          "totalvalue": 21131.9999
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2499200,
+          "peratio": 31.01,
+          "week52high": {
+            "date": "2024-05-15",
+            "content": 35.23
+          },
+          "week52low": {
+            "date": "2023-10-27",
+            "content": 28.77
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 0.92,
+            "yield": 2.619,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.23
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "ESGE:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "CRED.U:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "CI Alternative Investment Grade Credit Fund",
+          "shortname": "CRED.U:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 19.93,
+          "change": 0.07,
+          "changepercent": 0.352467,
+          "tick": 1,
+          "open": 19.93,
+          "high": 19.93,
+          "low": 19.93,
+          "prevclose": 19.86,
+          "bid": 19.89,
+          "ask": 19.93,
+          "bidsize": 3000,
+          "asksize": 2400,
+          "rawbidsize": 3000,
+          "rawasksize": 2400,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T12:55:32-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:16-04:00",
+          "totalvalue": 1993.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 65000,
+          "peratio": 4.26,
+          "week52high": {
+            "date": null,
+            "content": 19.86
+          },
+          "week52low": {
+            "date": null,
+            "content": 17.939799
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.55385,
+            "yield": 2.789,
+            "latestamount": {
+              "currency": "USD",
+              "content": 0.05
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-13"
+          }
+        },
+        "symbolstring": "CRED.U:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ZBI:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO Canadian Bank Income Index ETF",
+          "shortname": "ZBI:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 29.42,
+          "change": 0.06,
+          "changepercent": 0.20436,
+          "tick": 1,
+          "open": 29.42,
+          "high": 29.42,
+          "low": 29.42,
+          "prevclose": 29.36,
+          "bid": 29.36,
+          "ask": 29.42,
+          "bidsize": 1200,
+          "asksize": 500,
+          "rawbidsize": 1200,
+          "rawasksize": 500,
+          "tradevolume": 1,
+          "sharevolume": 500,
+          "vwap": 29.325,
+          "vwapvolume": 500,
+          "lasttradedatetime": "2024-06-04T14:37:27-04:00",
+          "lastquotedatetime": "2024-06-04T14:37:27-04:00",
+          "totalvalue": 14710.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 1300001,
+          "peratio": 2.51,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 29.35
+          },
+          "week52low": {
+            "date": null,
+            "content": 26.210085
+          },
+          "dividend": {
+            "date": "2024-03-27",
+            "amount": 1.00,
+            "yield": 3.406,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.23
+            },
+            "frequency": "Q",
+            "paydate": "2024-04-02",
+            "declaredDate": "2024-03-20"
+          }
+        },
+        "symbolstring": "ZBI:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "IFC.PR.C:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Intact Financial Corporation Non-cumulative Rate Reset Class A Shares Series 3",
+          "shortname": "IFC.PR.C:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 22.20,
+          "change": 0.06,
+          "changepercent": 0.271003,
+          "tick": -1,
+          "open": 22.20,
+          "high": 22.305,
+          "low": 22.19,
+          "prevclose": 22.14,
+          "bid": 22.14,
+          "ask": 22.24,
+          "bidsize": 800,
+          "asksize": 900,
+          "rawbidsize": 800,
+          "rawasksize": 900,
+          "tradevolume": 10,
+          "sharevolume": 1600,
+          "vwap": 22.071176,
+          "vwapvolume": 1600,
+          "lasttradedatetime": "2024-06-04T14:10:45-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:30-04:00",
+          "totalvalue": 35560.50
+        },
+        "fundamental": {
+          "sharesoutstanding": 178297268,
+          "shareclasslevelsharesoutstanding": 10000000,
+          "totalsharesoutstanding": 178297268,
+          "marketcap": 3958199350,
+          "eps": 11.53,
+          "peratio": 14.69,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 22.15
+          },
+          "week52low": {
+            "date": "2023-10-20",
+            "content": 16.00
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 0.86424,
+            "yield": 3.904,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.2160625
+            },
+            "frequency": "Q",
+            "paydate": "2024-06-30",
+            "declaredDate": "2024-05-07"
+          }
+        },
+        "symbolstring": "IFC.PR.C:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TBCG:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "TD Target 2027 Investment Grade Bond ETF",
+          "shortname": "TBCG:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 25.17,
+          "change": 0.05,
+          "changepercent": 0.199045,
+          "tick": 1,
+          "open": 25.15,
+          "high": 25.17,
+          "low": 25.14,
+          "prevclose": 25.12,
+          "bid": 25.15,
+          "ask": 25.17,
+          "bidsize": 300,
+          "asksize": 8900,
+          "rawbidsize": 300,
+          "rawasksize": 8900,
+          "tradevolume": 33,
+          "sharevolume": 37800,
+          "vwap": 25.113429,
+          "vwapvolume": 37800,
+          "lasttradedatetime": "2024-06-04T14:09:22-04:00",
+          "lastquotedatetime": "2024-06-04T14:39:21-04:00",
+          "totalvalue": 950724.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 1160000,
+          "week52high": {
+            "date": "2024-05-21",
+            "content": 25.16
+          },
+          "week52low": {
+            "date": null,
+            "content": 24.813431
+          },
+          "dividend": {
+            "date": "2024-05-30",
+            "amount": 0.924,
+            "yield": 3.678,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.077
+            },
+            "frequency": "M",
+            "paydate": "2024-06-06",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "TBCG:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RQO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2026 Canadian Corporate Bond Index ETF",
+          "shortname": "RQO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 18.26,
+          "change": 0.05,
+          "changepercent": 0.274574,
+          "tick": 1,
+          "open": 18.24,
+          "high": 18.26,
+          "low": 18.23,
+          "prevclose": 18.21,
+          "bid": 18.24,
+          "ask": 18.25,
+          "bidsize": 1400,
+          "asksize": 1300,
+          "rawbidsize": 1400,
+          "rawasksize": 1300,
+          "tradevolume": 38,
+          "sharevolume": 39425,
+          "vwap": 18.207935,
+          "vwapvolume": 39300,
+          "lasttradedatetime": "2024-06-04T14:41:25-04:00",
+          "lastquotedatetime": "2024-06-04T14:47:37-04:00",
+          "totalvalue": 719746.999
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 34400000,
+          "week52high": {
+            "date": "2023-12-29",
+            "content": 18.25
+          },
+          "week52low": {
+            "date": null,
+            "content": 17.177071
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.405,
+            "yield": 2.224,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.04
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RQO:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ZCS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BMO Short Corporate Bond Index ETF",
+          "shortname": "ZCS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 13.48,
+          "change": 0.04,
+          "changepercent": 0.297619,
+          "tick": 0,
+          "open": 13.47,
+          "high": 13.48,
+          "low": 13.47,
+          "prevclose": 13.44,
+          "bid": 13.47,
+          "ask": 13.48,
+          "bidsize": 9400,
+          "asksize": 13000,
+          "rawbidsize": 9400,
+          "rawasksize": 13000,
+          "tradevolume": 18,
+          "sharevolume": 10045,
+          "vwap": 13.430972,
+          "vwapvolume": 9900,
+          "lasttradedatetime": "2024-06-04T14:52:13-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:13-04:00",
+          "totalvalue": 135355.25
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 111962896,
+          "week52high": {
+            "date": "2024-05-21",
+            "content": 13.47
+          },
+          "week52low": {
+            "date": "2023-10-03",
+            "content": 12.83
+          },
+          "dividend": {
+            "date": "2024-05-30",
+            "amount": 0.456,
+            "yield": 3.393,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.038
+            },
+            "frequency": "M",
+            "paydate": "2024-06-04",
+            "declaredDate": "2024-05-23"
+          }
+        },
+        "symbolstring": "ZCS:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RBO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC 1-5 Year Laddered Canadian Corporate Bond ETF",
+          "shortname": "RBO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 18.27,
+          "change": 0.04,
+          "changepercent": 0.219419,
+          "tick": 1,
+          "open": 18.27,
+          "high": 18.27,
+          "low": 18.27,
+          "prevclose": 18.23,
+          "bid": 18.26,
+          "ask": 18.28,
+          "bidsize": 5200,
+          "asksize": 10200,
+          "rawbidsize": 5200,
+          "rawasksize": 10200,
+          "tradevolume": 1,
+          "sharevolume": 900,
+          "vwapvolume": 900,
+          "lasttradedatetime": "2024-06-04T14:12:45-04:00",
+          "lastquotedatetime": "2024-06-04T14:41:27-04:00",
+          "totalvalue": 16443.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 7000000,
+          "week52high": {
+            "date": "2023-12-21",
+            "content": 18.26
+          },
+          "week52low": {
+            "date": null,
+            "content": 17.139239
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.459,
+            "yield": 2.518,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.045
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RBO:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "IFC.PR.A:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Intact Financial Corporation Non-cumulative Rate Reset Class A Shares Series 1",
+          "shortname": "IFC.PR.A:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 19.99,
+          "change": 0.04,
+          "changepercent": 0.200501,
+          "tick": 1,
+          "open": 20.10,
+          "high": 20.10,
+          "low": 19.99,
+          "prevclose": 19.95,
+          "bid": 19.93,
+          "ask": 19.97,
+          "bidsize": 100,
+          "asksize": 200,
+          "rawbidsize": 100,
+          "rawasksize": 200,
+          "tradevolume": 12,
+          "sharevolume": 3450,
+          "vwap": 19.917826,
+          "vwapvolume": 3400,
+          "lasttradedatetime": "2024-06-04T14:26:01-04:00",
+          "lastquotedatetime": "2024-06-04T14:35:35-04:00",
+          "totalvalue": 69279.9999
+        },
+        "fundamental": {
+          "sharesoutstanding": 178297268,
+          "shareclasslevelsharesoutstanding": 10000000,
+          "totalsharesoutstanding": 178297268,
+          "marketcap": 3564162387,
+          "eps": 11.53,
+          "peratio": 14.69,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 19.95
+          },
+          "week52low": {
+            "date": null,
+            "content": 14.797515
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 1.21024,
+            "yield": 6.066,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.3025625
+            },
+            "frequency": "Q",
+            "paydate": "2024-06-30",
+            "declaredDate": "2024-05-07"
+          }
+        },
+        "symbolstring": "IFC.PR.A:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "XSH:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "iShares Core Canadian Short Term Corporate Bond Index ETF",
+          "shortname": "XSH:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 18.50,
+          "change": 0.03,
+          "changepercent": 0.162426,
+          "tick": 0,
+          "open": 18.46,
+          "high": 18.51,
+          "low": 18.46,
+          "prevclose": 18.47,
+          "bid": 18.49,
+          "ask": 18.50,
+          "bidsize": 4800,
+          "asksize": 200,
+          "rawbidsize": 4800,
+          "rawasksize": 200,
+          "tradevolume": 118,
+          "sharevolume": 39690,
+          "vwap": 18.448182,
+          "vwapvolume": 39600,
+          "lasttradedatetime": "2024-06-04T14:50:51-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 734128.749
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 67900000,
+          "eps": 0.74,
+          "week52high": {
+            "date": "2024-05-21",
+            "content": 18.48
+          },
+          "week52low": {
+            "date": "2023-10-03",
+            "content": 17.64
+          },
+          "dividend": {
+            "date": "2024-05-22",
+            "amount": 0.64001,
+            "yield": 3.465,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.057
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-15"
+          }
+        },
+        "symbolstring": "XSH:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RGQO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2026 Canadian Government Bond ETF",
+          "shortname": "RGQO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.09,
+          "change": 0.03,
+          "changepercent": 0.149551,
+          "tick": 0,
+          "open": 20.09,
+          "high": 20.09,
+          "low": 20.09,
+          "prevclose": 20.06,
+          "bid": 20.08,
+          "ask": 20.09,
+          "bidsize": 10500,
+          "asksize": 16300,
+          "rawbidsize": 10500,
+          "rawasksize": 16300,
+          "tradevolume": 3,
+          "sharevolume": 2596,
+          "vwap": 20.060556,
+          "vwapvolume": 2500,
+          "lasttradedatetime": "2024-06-04T13:51:14-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:34-04:00",
+          "totalvalue": 52153.64
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2850000,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 20.07
+          },
+          "week52low": {
+            "date": null,
+            "content": 19.146059
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.30,
+            "yield": 1.496,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.025
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RGQO:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "QEC:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Questerre Energy Corporation",
+          "shortname": "QEC:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.30,
+          "change": 0.03,
+          "changepercent": 11.111111,
+          "tick": -1,
+          "open": 0.295,
+          "high": 0.31,
+          "low": 0.29,
+          "prevclose": 0.27,
+          "bid": 0.30,
+          "ask": 0.31,
+          "bidsize": 3500,
+          "asksize": 13500,
+          "rawbidsize": 3500,
+          "rawasksize": 13500,
+          "tradevolume": 75,
+          "sharevolume": 232825,
+          "vwap": 0.270847,
+          "vwapvolume": 232500,
+          "lasttradedatetime": "2024-06-04T14:10:42-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 70204.875
+        },
+        "fundamental": {
+          "sharesoutstanding": 428516000,
+          "shareclasslevelsharesoutstanding": 428515836,
+          "totalsharesoutstanding": 428516000,
+          "marketcap": 128554800,
+          "pbratio": 0.75,
+          "week52high": {
+            "date": "2024-01-29",
+            "content": 0.305
+          },
+          "week52low": {
+            "date": "2024-01-25",
+            "content": 0.165
+          }
+        },
+        "symbolstring": "QEC:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "PSB:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Invesco 1-5 Year Laddered Investment Grade Corporate Bond Index ETF",
+          "shortname": "PSB:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 17.28,
+          "change": 0.03,
+          "changepercent": 0.173913,
+          "tick": 0,
+          "open": 17.27,
+          "high": 17.28,
+          "low": 17.27,
+          "prevclose": 17.25,
+          "bid": 17.26,
+          "ask": 17.28,
+          "bidsize": 700,
+          "asksize": 13600,
+          "rawbidsize": 700,
+          "rawasksize": 13600,
+          "tradevolume": 9,
+          "sharevolume": 2800,
+          "vwap": 17.214545,
+          "vwapvolume": 2800,
+          "lasttradedatetime": "2024-06-04T14:37:26-04:00",
+          "lastquotedatetime": "2024-06-04T14:39:21-04:00",
+          "totalvalue": 48362.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 21152750,
+          "week52high": {
+            "date": "2024-03-25",
+            "content": 17.26
+          },
+          "week52low": {
+            "date": "2023-10-03",
+            "content": 16.34
+          },
+          "dividend": {
+            "date": "2024-05-30",
+            "amount": 0.54334,
+            "yield": 3.15,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.04537
+            },
+            "frequency": "M",
+            "paydate": "2024-06-07",
+            "declaredDate": "2024-05-23"
+          }
+        },
+        "symbolstring": "PSB:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "PAYS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Global X Short-Term Government Bond Premium Yield ETF",
+          "shortname": "PAYS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.06,
+          "change": 0.03,
+          "changepercent": 0.149775,
+          "tick": 1,
+          "open": 20.06,
+          "high": 20.06,
+          "low": 20.06,
+          "prevclose": 20.03,
+          "bid": 20.05,
+          "ask": 20.07,
+          "bidsize": 6300,
+          "asksize": 8800,
+          "rawbidsize": 6300,
+          "rawasksize": 8800,
+          "tradevolume": 2,
+          "sharevolume": 854,
+          "vwap": 19.90,
+          "vwapvolume": 800,
+          "lasttradedatetime": "2024-06-04T11:18:25-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:01-04:00",
+          "totalvalue": 17131.2399
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 100001,
+          "week52high": {
+            "date": null,
+            "content": 20.05
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 19.90
+          }
+        },
+        "symbolstring": "PAYS:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "RGQN:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "RBC Target 2025 Canadian Government Bond ETF",
+          "shortname": "RGQN:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 20.17,
+          "change": 0.01,
+          "changepercent": 0.049603,
+          "tick": 1,
+          "open": 20.17,
+          "high": 20.17,
+          "low": 20.17,
+          "prevclose": 20.16,
+          "bid": 20.16,
+          "ask": 20.17,
+          "bidsize": 8800,
+          "asksize": 14500,
+          "rawbidsize": 8800,
+          "rawasksize": 14500,
+          "tradevolume": 3,
+          "sharevolume": 14500,
+          "vwap": 20.150465,
+          "vwapvolume": 14500,
+          "lasttradedatetime": "2024-06-04T13:51:14-04:00",
+          "lastquotedatetime": "2024-06-04T14:49:26-04:00",
+          "totalvalue": 292465.00
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 2400000,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 20.16
+          },
+          "week52low": {
+            "date": null,
+            "content": 19.253864
+          },
+          "dividend": {
+            "date": "2024-05-23",
+            "amount": 0.389,
+            "yield": 1.93,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.032
+            },
+            "frequency": "M",
+            "paydate": "2024-05-31",
+            "declaredDate": "2024-05-16"
+          }
+        },
+        "symbolstring": "RGQN:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EFN.PR.C:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Element Fleet Management Corp. 6.50% Cumulative 5-Year Rate Reset Preferred Shares Series C",
+          "shortname": "EFN.PR.C:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 25.31,
+          "change": 0.01,
+          "changepercent": 0.039526,
+          "tick": 1,
+          "open": 25.31,
+          "high": 25.31,
+          "low": 25.31,
+          "prevclose": 25.30,
+          "bid": 25.27,
+          "ask": 25.30,
+          "bidsize": 23400,
+          "asksize": 600,
+          "rawbidsize": 23400,
+          "rawasksize": 600,
+          "tradevolume": 1,
+          "sharevolume": 100,
+          "vwap": 25.30,
+          "vwapvolume": 100,
+          "lasttradedatetime": "2024-06-04T14:06:47-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 2531.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 389168735,
+          "shareclasslevelsharesoutstanding": 5126400,
+          "totalsharesoutstanding": 389168735,
+          "marketcap": 9849860683,
+          "eps": 1.13,
+          "peratio": 22.1,
+          "pbratio": 3.343,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 25.30
+          },
+          "week52low": {
+            "date": null,
+            "content": 23.339346
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 1.55252,
+            "yield": 6.136,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.38813
+            },
+            "frequency": "Q",
+            "paydate": "2024-06-28",
+            "declaredDate": "2024-05-14"
+          }
+        },
+        "symbolstring": "EFN.PR.C:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:39-04:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2799 @@
+{
+  "results": {
+    "copyright": "Copyright (c) 2024 QuoteMedia, Inc.",
+    "symbolcount": 50,
+    "quote": [
+      {
+        "key": {
+          "symbol": "HZM:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Horizonte Minerals Plc. Oridinary Shares",
+          "shortname": "HZM:CA"
+        },
+        "status": {
+          "halt": {
+            "code": "02",
+            "indicator": "D"
+          },
+          "effectivedate": "2024-06-04T03:05:01-0400"
+        },
+        "pricedata": {
+          "last": 0.005,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": -1,
+          "prevclose": 0.005,
+          "bid": 0.005,
+          "ask": 0.005,
+          "bidsize": 2467000,
+          "asksize": 69000,
+          "rawbidsize": 2467000,
+          "rawasksize": 69000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-15T09:30:00-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 269778906,
+          "week52high": {
+            "date": "2023-07-17",
+            "content": 2.88
+          },
+          "week52low": {
+            "date": "2024-05-15",
+            "content": 0.005
+          }
+        },
+        "symbolstring": "HZM:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TWM.WT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Tidewater Midstream and Infrastructure Ltd. Common share purchase warrants",
+          "shortname": "TWM.WT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.005,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.005,
+          "ask": 0.005,
+          "bidsize": 0,
+          "asksize": 3000,
+          "rawbidsize": 0,
+          "rawasksize": 3000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-28T12:33:18-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 428200000,
+          "shareclasslevelsharesoutstanding": 40081417,
+          "totalsharesoutstanding": 428200000,
+          "marketcap": 2141000,
+          "pbratio": 0.003,
+          "week52high": {
+            "date": "2023-08-11",
+            "content": 0.075
+          },
+          "week52low": {
+            "date": "2024-05-28",
+            "content": 0.005
+          }
+        },
+        "symbolstring": "TWM.WT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "LPEN:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Loop Energy Inc.",
+          "shortname": "LPEN:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.045,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "open": 0.04,
+          "high": 0.045,
+          "low": 0.04,
+          "prevclose": 0.045,
+          "bid": 0.04,
+          "ask": 0.045,
+          "bidsize": 19000,
+          "asksize": 32000,
+          "rawbidsize": 19000,
+          "rawasksize": 32000,
+          "tradevolume": 9,
+          "sharevolume": 119000,
+          "vwap": 0.045,
+          "vwapvolume": 119000,
+          "lasttradedatetime": "2024-06-04T11:52:09-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:33-04:00",
+          "totalvalue": 4765.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 34390682,
+          "shareclasslevelsharesoutstanding": 34395592,
+          "totalsharesoutstanding": 34390682,
+          "marketcap": 1547581,
+          "pbratio": 0.237,
+          "week52high": {
+            "date": "2023-08-04",
+            "content": 0.73
+          },
+          "week52low": {
+            "date": "2024-05-27",
+            "content": 0.02
+          }
+        },
+        "symbolstring": "LPEN:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TAIG.WT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Taiga Motors Corporation Common Share purchase warrants",
+          "shortname": "TAIG.WT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.02,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.02,
+          "bid": 0.015,
+          "ask": 0.025,
+          "bidsize": 54000,
+          "asksize": 1000,
+          "rawbidsize": 54000,
+          "rawasksize": 1000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-29T10:59:36-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 31825712,
+          "shareclasslevelsharesoutstanding": 1794353,
+          "totalsharesoutstanding": 31825712,
+          "marketcap": 636514,
+          "pbratio": -0.667,
+          "week52high": {
+            "date": "2023-08-03",
+            "content": 0.325
+          },
+          "week52low": {
+            "date": "2024-04-03",
+            "content": 0.015
+          }
+        },
+        "symbolstring": "TAIG.WT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EPRX.WT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Eupraxia Pharmaceuticals Inc. Common share purchase warrants",
+          "shortname": "EPRX.WT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.27,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.27,
+          "bid": 0.27,
+          "ask": 0.57,
+          "bidsize": 25000,
+          "asksize": 500,
+          "rawbidsize": 25000,
+          "rawasksize": 500,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-22T11:21:01-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 35622553,
+          "shareclasslevelsharesoutstanding": 2826024,
+          "totalsharesoutstanding": 35622553,
+          "marketcap": 9618089,
+          "pbratio": 0.562,
+          "week52high": {
+            "date": "2023-07-13",
+            "content": 2.25
+          },
+          "week52low": {
+            "date": "2024-04-29",
+            "content": 0.24
+          }
+        },
+        "symbolstring": "EPRX.WT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EPRX.WT.A:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Eupraxia Pharmaceuticals Inc. Common share purchase warrants",
+          "shortname": "EPRX.WT.A:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 1.50,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 1.50,
+          "bid": 1.50,
+          "ask": 1.80,
+          "bidsize": 200,
+          "asksize": 200,
+          "rawbidsize": 200,
+          "rawasksize": 200,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-15T10:47:53-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 35622553,
+          "shareclasslevelsharesoutstanding": 5196550,
+          "totalsharesoutstanding": 35622553,
+          "marketcap": 53433830,
+          "pbratio": 3.125,
+          "week52high": {
+            "date": "2023-07-05",
+            "content": 6.18
+          },
+          "week52low": {
+            "date": "2024-04-08",
+            "content": 1.20
+          }
+        },
+        "symbolstring": "EPRX.WT.A:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "BCT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BriaCell Therapeutics Corp.",
+          "shortname": "BCT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 1.92,
+          "change": -0.17,
+          "changepercent": -8.133971,
+          "tick": -1,
+          "open": 2.20,
+          "high": 2.20,
+          "low": 1.92,
+          "prevclose": 2.09,
+          "bid": 1.88,
+          "ask": 1.97,
+          "bidsize": 100,
+          "asksize": 900,
+          "rawbidsize": 100,
+          "rawasksize": 900,
+          "tradevolume": 16,
+          "sharevolume": 2800,
+          "vwap": 2.238571,
+          "vwapvolume": 2800,
+          "lasttradedatetime": "2024-06-04T13:07:48-04:00",
+          "lastquotedatetime": "2024-06-04T14:45:21-04:00",
+          "totalvalue": 5769.99999
+        },
+        "fundamental": {
+          "sharesoutstanding": 15981726,
+          "shareclasslevelsharesoutstanding": 18284661,
+          "totalsharesoutstanding": 15981726,
+          "marketcap": 30684914,
+          "pbratio": -3.765,
+          "week52high": {
+            "date": "2023-08-28",
+            "content": 10.29
+          },
+          "week52low": {
+            "date": "2024-05-24",
+            "content": 1.77
+          }
+        },
+        "symbolstring": "BCT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TAIG:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Taiga Motors Corporation",
+          "shortname": "TAIG:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.29,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "open": 0.29,
+          "high": 0.29,
+          "low": 0.29,
+          "prevclose": 0.29,
+          "bid": 0.29,
+          "ask": 0.30,
+          "bidsize": 2000,
+          "asksize": 5000,
+          "rawbidsize": 2000,
+          "rawasksize": 5000,
+          "tradevolume": 6,
+          "sharevolume": 3617,
+          "vwap": 0.285,
+          "vwapvolume": 3500,
+          "lasttradedatetime": "2024-06-04T09:49:23-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 1049.92999
+        },
+        "fundamental": {
+          "sharesoutstanding": 31825712,
+          "shareclasslevelsharesoutstanding": 31825716,
+          "totalsharesoutstanding": 31825712,
+          "marketcap": 9229456,
+          "pbratio": -9.667,
+          "week52high": {
+            "date": "2023-08-03",
+            "content": 2.32
+          },
+          "week52low": {
+            "date": "2024-04-08",
+            "content": 0.19
+          }
+        },
+        "symbolstring": "TAIG:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "LEV.WT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Lion Electric Company (The) Common Share purchase warrants",
+          "shortname": "LEV.WT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.03,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": -1,
+          "prevclose": 0.03,
+          "bid": 0.03,
+          "ask": 0.04,
+          "bidsize": 1000,
+          "asksize": 1000,
+          "rawbidsize": 1000,
+          "rawasksize": 1000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwap": 0.03,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-06-03T11:41:17-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:38-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 226215913,
+          "shareclasslevelsharesoutstanding": 27111323,
+          "totalsharesoutstanding": 226215913,
+          "marketcap": 6786477,
+          "pbratio": 0.019,
+          "week52high": {
+            "date": "2023-07-24",
+            "content": 0.405
+          },
+          "week52low": {
+            "date": "2024-05-24",
+            "content": 0.025
+          }
+        },
+        "symbolstring": "LEV.WT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ELF.PR.G:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "E-L Financial Corporation Limited 4.75% Non-Cumulative Redeemable First Preference Shares Series 2",
+          "shortname": "ELF.PR.G:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 19.00,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 19.00,
+          "bid": 18.85,
+          "ask": 19.00,
+          "bidsize": 2100,
+          "asksize": 200,
+          "rawbidsize": 2100,
+          "rawasksize": 200,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwap": 19.00,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-06-03T14:57:56-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 3461722,
+          "shareclasslevelsharesoutstanding": 4000000,
+          "totalsharesoutstanding": 3461722,
+          "marketcap": 65772718,
+          "eps": 259.03,
+          "peratio": 3.39,
+          "pbratio": 0.009,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 19.00
+          },
+          "week52low": {
+            "date": null,
+            "content": -41.82228
+          },
+          "dividend": {
+            "date": "2024-06-28",
+            "amount": 1.18752,
+            "yield": 6.25,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.296875
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-17",
+            "declaredDate": "2024-05-08"
+          }
+        },
+        "symbolstring": "ELF.PR.G:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "BRY:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Bri-Chem Corp.",
+          "shortname": "BRY:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.165,
+          "change": -0.01,
+          "changepercent": -5.714286,
+          "tick": 1,
+          "open": 0.175,
+          "high": 0.175,
+          "low": 0.16,
+          "prevclose": 0.175,
+          "bid": 0.16,
+          "ask": 0.165,
+          "bidsize": 18000,
+          "asksize": 1500,
+          "rawbidsize": 18000,
+          "rawasksize": 1500,
+          "tradevolume": 10,
+          "sharevolume": 52554,
+          "vwap": 0.175273,
+          "vwapvolume": 52500,
+          "lasttradedatetime": "2024-06-04T09:41:37-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:09-04:00",
+          "totalvalue": 8551.45
+        },
+        "fundamental": {
+          "sharesoutstanding": 26432981,
+          "shareclasslevelsharesoutstanding": 26432981,
+          "totalsharesoutstanding": 26432981,
+          "marketcap": 4361442,
+          "pbratio": 0.192,
+          "week52high": {
+            "date": "2023-08-30",
+            "content": 0.54
+          },
+          "week52low": {
+            "date": "2024-05-16",
+            "content": 0.16
+          }
+        },
+        "symbolstring": "BRY:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "VPH:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Valeo Pharma Inc. Class A shares",
+          "shortname": "VPH:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.105,
+          "change": 0.005,
+          "changepercent": 5,
+          "tick": 1,
+          "open": 0.105,
+          "high": 0.105,
+          "low": 0.105,
+          "prevclose": 0.10,
+          "bid": 0.10,
+          "ask": 0.105,
+          "bidsize": 18000,
+          "asksize": 53000,
+          "rawbidsize": 18000,
+          "rawasksize": 53000,
+          "tradevolume": 2,
+          "sharevolume": 10000,
+          "vwap": 0.096833,
+          "vwapvolume": 10000,
+          "lasttradedatetime": "2024-06-04T13:24:21-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 1050.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 98675427,
+          "shareclasslevelsharesoutstanding": 98675427,
+          "totalsharesoutstanding": 98675427,
+          "marketcap": 10360920,
+          "pbratio": -0.219,
+          "week52high": {
+            "date": "2023-06-15",
+            "content": 0.41
+          },
+          "week52low": {
+            "date": "2024-04-24",
+            "content": 0.06
+          }
+        },
+        "symbolstring": "VPH:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "AGRI.RT.U:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Agrinam Acquisition Corporation Rights",
+          "shortname": "AGRI.RT.U:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.02,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.02,
+          "bid": 0.005,
+          "ask": 0.05,
+          "bidsize": 10000,
+          "asksize": 2000,
+          "rawbidsize": 10000,
+          "rawasksize": 2000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-04-17T10:12:11-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 19005846,
+          "shareclasslevelsharesoutstanding": 13800000,
+          "totalsharesoutstanding": 19005846,
+          "marketcap": 380117,
+          "peratio": 14.13,
+          "week52high": {
+            "date": "2024-01-10",
+            "content": 0.05
+          },
+          "week52low": {
+            "date": "2023-11-10",
+            "content": 0.01
+          }
+        },
+        "symbolstring": "AGRI.RT.U:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "AVCN:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Avicanna Inc.",
+          "shortname": "AVCN:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.24,
+          "change": -0.015,
+          "changepercent": -5.882353,
+          "tick": 0,
+          "open": 0.255,
+          "high": 0.255,
+          "low": 0.23,
+          "prevclose": 0.255,
+          "bid": 0.235,
+          "ask": 0.24,
+          "bidsize": 39500,
+          "asksize": 2000,
+          "rawbidsize": 39500,
+          "rawasksize": 2000,
+          "tradevolume": 32,
+          "sharevolume": 139304,
+          "vwap": 0.260466,
+          "vwapvolume": 139000,
+          "lasttradedatetime": "2024-06-04T14:49:47-04:00",
+          "lastquotedatetime": "2024-06-04T14:49:57-04:00",
+          "totalvalue": 33847.42
+        },
+        "fundamental": {
+          "sharesoutstanding": 97913896,
+          "shareclasslevelsharesoutstanding": 97601896,
+          "totalsharesoutstanding": 97913896,
+          "marketcap": 23499335,
+          "pbratio": 24.0,
+          "week52high": {
+            "date": "2024-03-18",
+            "content": 0.60
+          },
+          "week52low": {
+            "date": "2023-08-15",
+            "content": 0.23
+          }
+        },
+        "symbolstring": "AVCN:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "HGD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BetaPro Canadian Gold Miners -2x Daily Bear ETF",
+          "shortname": "HGD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 3.73,
+          "change": 0.32,
+          "changepercent": 9.384164,
+          "tick": 0,
+          "open": 3.51,
+          "high": 3.76,
+          "low": 3.51,
+          "prevclose": 3.41,
+          "bid": 3.73,
+          "ask": 3.74,
+          "bidsize": 6300,
+          "asksize": 14400,
+          "rawbidsize": 6300,
+          "rawasksize": 14400,
+          "tradevolume": 885,
+          "sharevolume": 629976,
+          "vwap": 3.438841,
+          "vwapvolume": 628700,
+          "lasttradedatetime": "2024-06-04T14:52:38-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:43-04:00",
+          "totalvalue": 2315718.73
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 7256900,
+          "week52high": {
+            "date": "2023-10-02",
+            "content": 7.91
+          },
+          "week52low": {
+            "date": "2024-05-21",
+            "content": 3.265
+          }
+        },
+        "symbolstring": "HGD:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "IVQ.U:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Invesque Inc.",
+          "shortname": "IVQ.U:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.17,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.17,
+          "bid": 0.165,
+          "ask": 0.195,
+          "bidsize": 3000,
+          "asksize": 1000,
+          "rawbidsize": 3000,
+          "rawasksize": 1000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwap": 0.17,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-06-03T15:46:49-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 56225170,
+          "shareclasslevelsharesoutstanding": 56225170,
+          "totalsharesoutstanding": 56225170,
+          "marketcap": 9558279,
+          "pbratio": 0.156,
+          "week52high": {
+            "date": "2023-07-19",
+            "content": 0.91
+          },
+          "week52low": {
+            "date": "2024-05-28",
+            "content": 0.16
+          }
+        },
+        "symbolstring": "IVQ.U:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "APS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Aptose Biosciences Inc.",
+          "shortname": "APS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 1.32,
+          "change": -0.01,
+          "changepercent": -0.75188,
+          "tick": 1,
+          "open": 1.33,
+          "high": 1.34,
+          "low": 1.30,
+          "prevclose": 1.33,
+          "bid": 1.30,
+          "ask": 1.34,
+          "bidsize": 700,
+          "asksize": 500,
+          "rawbidsize": 700,
+          "rawasksize": 500,
+          "tradevolume": 13,
+          "sharevolume": 2540,
+          "vwap": 1.32593,
+          "vwapvolume": 2400,
+          "lasttradedatetime": "2024-06-04T14:04:51-04:00",
+          "lastquotedatetime": "2024-06-04T14:39:13-04:00",
+          "totalvalue": 3354.58
+        },
+        "fundamental": {
+          "sharesoutstanding": 16309393,
+          "shareclasslevelsharesoutstanding": 16288336,
+          "totalsharesoutstanding": 16309393,
+          "marketcap": 21528399,
+          "pbratio": -7.333,
+          "week52high": {
+            "date": "2023-06-05",
+            "content": 9.30
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 1.29
+          }
+        },
+        "symbolstring": "APS:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "GFP:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "GreenFirst Forest Products Inc.",
+          "shortname": "GFP:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.485,
+          "change": 0.035,
+          "changepercent": 7.777778,
+          "tick": -1,
+          "open": 0.485,
+          "high": 0.485,
+          "low": 0.485,
+          "prevclose": 0.45,
+          "bid": 0.455,
+          "ask": 0.475,
+          "bidsize": 500,
+          "asksize": 2500,
+          "rawbidsize": 500,
+          "rawasksize": 2500,
+          "tradevolume": 1,
+          "sharevolume": 500,
+          "vwap": 0.45966,
+          "vwapvolume": 500,
+          "lasttradedatetime": "2024-06-04T09:33:35-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 242.50
+        },
+        "fundamental": {
+          "sharesoutstanding": 177572272,
+          "shareclasslevelsharesoutstanding": 177572272,
+          "totalsharesoutstanding": 177572272,
+          "marketcap": 86122552,
+          "pbratio": 0.516,
+          "week52high": {
+            "date": "2023-06-07",
+            "content": 1.29
+          },
+          "week52low": {
+            "date": "2024-05-21",
+            "content": 0.36
+          }
+        },
+        "symbolstring": "GFP:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "AXIS:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Axis Auto Finance Inc.",
+          "shortname": "AXIS:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.055,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.055,
+          "bid": 0.035,
+          "ask": 0.055,
+          "bidsize": 5000,
+          "asksize": 76000,
+          "rawbidsize": 5000,
+          "rawasksize": 76000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-31T15:23:17-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 121285389,
+          "shareclasslevelsharesoutstanding": 121374164,
+          "totalsharesoutstanding": 121285389,
+          "marketcap": 6670696,
+          "pbratio": 0.306,
+          "week52high": {
+            "date": "2023-07-14",
+            "content": 0.20
+          },
+          "week52low": {
+            "date": "2024-05-15",
+            "content": 0.01
+          }
+        },
+        "symbolstring": "AXIS:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ELF.PR.F:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "E-L Financial Corporation Limited First Preference Shares Series 1",
+          "shortname": "ELF.PR.F:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 21.05,
+          "change": 0.09,
+          "changepercent": 0.429389,
+          "tick": -1,
+          "open": 21.06,
+          "high": 21.06,
+          "low": 21.05,
+          "prevclose": 20.96,
+          "bid": 20.89,
+          "ask": 21.13,
+          "bidsize": 100,
+          "asksize": 100,
+          "rawbidsize": 100,
+          "rawasksize": 100,
+          "tradevolume": 3,
+          "sharevolume": 800,
+          "vwap": 21.048889,
+          "vwapvolume": 800,
+          "lasttradedatetime": "2024-06-04T13:01:32-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 16843.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 3461722,
+          "shareclasslevelsharesoutstanding": 4000000,
+          "totalsharesoutstanding": 3461722,
+          "marketcap": 72869248,
+          "eps": 259.03,
+          "peratio": 3.39,
+          "pbratio": 0.009,
+          "week52high": {
+            "date": "2024-06-03",
+            "content": 21.30
+          },
+          "week52low": {
+            "date": null,
+            "content": -38.380206
+          },
+          "dividend": {
+            "date": "2024-06-28",
+            "amount": 1.325,
+            "yield": 6.322,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.33125
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-17",
+            "declaredDate": "2024-05-08"
+          }
+        },
+        "symbolstring": "ELF.PR.F:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "HZD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BetaPro Silver -2x Daily Bear ETF",
+          "shortname": "HZD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 8.80,
+          "change": 0.53,
+          "changepercent": 6.408706,
+          "tick": 0,
+          "open": 8.62,
+          "high": 8.90,
+          "low": 8.62,
+          "prevclose": 8.27,
+          "bid": 8.78,
+          "ask": 8.80,
+          "bidsize": 22500,
+          "asksize": 14400,
+          "rawbidsize": 22500,
+          "rawasksize": 14400,
+          "tradevolume": 138,
+          "sharevolume": 92569,
+          "vwap": 8.260954,
+          "vwapvolume": 92100,
+          "lasttradedatetime": "2024-06-04T14:49:12-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:43-04:00",
+          "totalvalue": 812625.539
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 884830,
+          "week52high": {
+            "date": "2023-10-04",
+            "content": 18.99
+          },
+          "week52low": {
+            "date": "2024-05-29",
+            "content": 7.45
+          }
+        },
+        "symbolstring": "HZD:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "IVQ:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Invesque Inc.",
+          "shortname": "IVQ:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.25,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.25,
+          "bid": 0.23,
+          "ask": 0.26,
+          "bidsize": 68000,
+          "asksize": 8000,
+          "rawbidsize": 68000,
+          "rawasksize": 8000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-31T15:46:48-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 56225170,
+          "shareclasslevelsharesoutstanding": 56225170,
+          "totalsharesoutstanding": 56225170,
+          "marketcap": 14056293,
+          "pbratio": 0.229,
+          "week52high": {
+            "date": "2023-07-19",
+            "content": 1.23
+          },
+          "week52low": {
+            "date": "2024-05-31",
+            "content": 0.23
+          }
+        },
+        "symbolstring": "IVQ:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TIXT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "TELUS International (Cda) Inc. Subordinate Voting Shares",
+          "shortname": "TIXT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 7.76,
+          "change": 0.12,
+          "changepercent": 1.570681,
+          "tick": 0,
+          "open": 7.60,
+          "high": 7.82,
+          "low": 7.60,
+          "prevclose": 7.64,
+          "bid": 7.76,
+          "ask": 7.77,
+          "bidsize": 1000,
+          "asksize": 1500,
+          "rawbidsize": 1000,
+          "rawasksize": 1500,
+          "tradevolume": 440,
+          "sharevolume": 103484,
+          "vwap": 7.635138,
+          "vwapvolume": 103100,
+          "lasttradedatetime": "2024-06-04T14:49:25-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:35-04:00",
+          "totalvalue": 799173.979
+        },
+        "fundamental": {
+          "sharesoutstanding": 274212188,
+          "shareclasslevelsharesoutstanding": 110218883,
+          "totalsharesoutstanding": 274212188,
+          "marketcap": 2127886579,
+          "eps": 0.34,
+          "peratio": 22.75,
+          "pbratio": 1.037,
+          "week52high": {
+            "date": "2023-06-07",
+            "content": 22.28
+          },
+          "week52low": {
+            "date": "2024-05-30",
+            "content": 7.55
+          }
+        },
+        "symbolstring": "TIXT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ELF.PR.H:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "E-L Financial Corporation Limited First Preference Shares Series 3",
+          "shortname": "ELF.PR.H:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 21.70,
+          "change": -0.06,
+          "changepercent": -0.275735,
+          "tick": -1,
+          "open": 21.80,
+          "high": 21.80,
+          "low": 21.70,
+          "prevclose": 21.76,
+          "bid": 21.70,
+          "ask": 21.75,
+          "bidsize": 600,
+          "asksize": 500,
+          "rawbidsize": 600,
+          "rawasksize": 500,
+          "tradevolume": 2,
+          "sharevolume": 500,
+          "vwap": 21.784286,
+          "vwapvolume": 500,
+          "lasttradedatetime": "2024-06-04T14:09:16-04:00",
+          "lastquotedatetime": "2024-06-04T14:49:15-04:00",
+          "totalvalue": 10860.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 3461722,
+          "shareclasslevelsharesoutstanding": 4000000,
+          "totalsharesoutstanding": 3461722,
+          "marketcap": 75119367,
+          "eps": 259.03,
+          "peratio": 3.39,
+          "pbratio": 0.01,
+          "week52high": {
+            "date": "2024-02-07",
+            "content": 22.00
+          },
+          "week52low": {
+            "date": null,
+            "content": -38.990076
+          },
+          "dividend": {
+            "date": "2024-06-28",
+            "amount": 1.375,
+            "yield": 6.319,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.34375
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-17",
+            "declaredDate": "2024-05-08"
+          }
+        },
+        "symbolstring": "ELF.PR.H:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "BABY.WT.A:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Else Nutrition Holdings Inc. 2021 Warrants",
+          "shortname": "BABY.WT.A:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.035,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.035,
+          "bid": 0.035,
+          "ask": 0.045,
+          "bidsize": 10000,
+          "asksize": 1000,
+          "rawbidsize": 10000,
+          "rawasksize": 1000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-28T10:41:31-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 144416158,
+          "shareclasslevelsharesoutstanding": 4024999,
+          "totalsharesoutstanding": 144416158,
+          "marketcap": 5054566,
+          "pbratio": 0.7,
+          "week52high": {
+            "date": "2023-07-11",
+            "content": 0.185
+          },
+          "week52low": {
+            "date": "2024-02-23",
+            "content": 0.03
+          }
+        },
+        "symbolstring": "BABY.WT.A:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EPRX:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Eupraxia Pharmaceuticals Inc.",
+          "shortname": "EPRX:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 3.70,
+          "change": 0.03,
+          "changepercent": 0.817439,
+          "tick": 0,
+          "open": 3.73,
+          "high": 3.73,
+          "low": 3.65,
+          "prevclose": 3.67,
+          "bid": 3.65,
+          "ask": 3.70,
+          "bidsize": 15000,
+          "asksize": 200,
+          "rawbidsize": 15000,
+          "rawasksize": 200,
+          "tradevolume": 31,
+          "sharevolume": 8906,
+          "vwap": 3.718235,
+          "vwapvolume": 8900,
+          "lasttradedatetime": "2024-06-04T14:35:45-04:00",
+          "lastquotedatetime": "2024-06-04T14:35:45-04:00",
+          "totalvalue": 32884.90
+        },
+        "fundamental": {
+          "sharesoutstanding": 35622553,
+          "shareclasslevelsharesoutstanding": 35622553,
+          "totalsharesoutstanding": 35622553,
+          "marketcap": 131803446,
+          "pbratio": 7.708,
+          "week52high": {
+            "date": "2023-07-05",
+            "content": 9.10
+          },
+          "week52low": {
+            "date": "2024-04-18",
+            "content": 3.44
+          }
+        },
+        "symbolstring": "EPRX:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "LAC:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Lithium Americas Corp.",
+          "shortname": "LAC:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 4.355,
+          "change": -0.135,
+          "changepercent": -3.006681,
+          "tick": 0,
+          "open": 4.45,
+          "high": 4.45,
+          "low": 4.31,
+          "prevclose": 4.49,
+          "bid": 4.35,
+          "ask": 4.36,
+          "bidsize": 9900,
+          "asksize": 3500,
+          "rawbidsize": 9900,
+          "rawasksize": 3500,
+          "tradevolume": 1449,
+          "sharevolume": 517829,
+          "vwap": 4.527523,
+          "vwapvolume": 516400,
+          "lasttradedatetime": "2024-06-04T14:51:54-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:42-04:00",
+          "totalvalue": 2267098.04
+        },
+        "fundamental": {
+          "sharesoutstanding": 160800000,
+          "shareclasslevelsharesoutstanding": 217170053,
+          "totalsharesoutstanding": 160800000,
+          "marketcap": 700284000,
+          "pbratio": 1.721,
+          "week52high": {
+            "date": "2023-10-05",
+            "content": 17.00
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 4.44
+          }
+        },
+        "symbolstring": "LAC:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "WNDR.WT.B:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "WonderFi Technologies Inc. common share purchase warrants",
+          "shortname": "WNDR.WT.B:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.03,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": -1,
+          "prevclose": 0.03,
+          "bid": 0.02,
+          "ask": 0.03,
+          "bidsize": 7000,
+          "asksize": 1000,
+          "rawbidsize": 7000,
+          "rawasksize": 1000,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-05-06T09:30:00-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 652610304,
+          "shareclasslevelsharesoutstanding": 6760002,
+          "totalsharesoutstanding": 652610304,
+          "marketcap": 19578309,
+          "pbratio": 0.188,
+          "week52high": {
+            "date": "2023-07-11",
+            "content": 0.105
+          },
+          "week52low": {
+            "date": "2024-03-04",
+            "content": 0.005
+          }
+        },
+        "symbolstring": "WNDR.WT.B:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "NUMI:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Numinus Wellness Inc.",
+          "shortname": "NUMI:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.07,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": -1,
+          "open": 0.065,
+          "high": 0.075,
+          "low": 0.065,
+          "prevclose": 0.07,
+          "bid": 0.07,
+          "ask": 0.075,
+          "bidsize": 26000,
+          "asksize": 226000,
+          "rawbidsize": 26000,
+          "rawasksize": 226000,
+          "tradevolume": 35,
+          "sharevolume": 352758,
+          "vwap": 0.068241,
+          "vwapvolume": 348000,
+          "lasttradedatetime": "2024-06-04T14:52:30-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:30-04:00",
+          "totalvalue": 24787.1999
+        },
+        "fundamental": {
+          "sharesoutstanding": 270551600,
+          "shareclasslevelsharesoutstanding": 316455100,
+          "totalsharesoutstanding": 270551600,
+          "marketcap": 18938612,
+          "pbratio": 1.75,
+          "week52high": {
+            "date": "2023-07-13",
+            "content": 0.265
+          },
+          "week52low": {
+            "date": "2024-05-29",
+            "content": 0.06
+          }
+        },
+        "symbolstring": "NUMI:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "IMP:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Intermap Technologies Corporation",
+          "shortname": "IMP:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.57,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "prevclose": 0.57,
+          "bid": 0.55,
+          "ask": 0.57,
+          "bidsize": 2500,
+          "asksize": 1500,
+          "rawbidsize": 2500,
+          "rawasksize": 1500,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwap": 0.57,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-06-03T11:54:28-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 37693710,
+          "shareclasslevelsharesoutstanding": 41977490,
+          "totalsharesoutstanding": 37693710,
+          "marketcap": 21485415,
+          "pbratio": -6.333,
+          "week52high": {
+            "date": "2024-02-22",
+            "content": 0.95
+          },
+          "week52low": {
+            "date": "2023-11-17",
+            "content": 0.44
+          }
+        },
+        "symbolstring": "IMP:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "XTRA:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Xtract One Technologies Inc.",
+          "shortname": "XTRA:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.45,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 0,
+          "open": 0.465,
+          "high": 0.465,
+          "low": 0.44,
+          "prevclose": 0.45,
+          "bid": 0.445,
+          "ask": 0.45,
+          "bidsize": 10000,
+          "asksize": 500,
+          "rawbidsize": 10000,
+          "rawasksize": 500,
+          "tradevolume": 95,
+          "sharevolume": 157562,
+          "vwap": 0.457016,
+          "vwapvolume": 154000,
+          "lasttradedatetime": "2024-06-04T14:50:39-04:00",
+          "lastquotedatetime": "2024-06-04T14:50:40-04:00",
+          "totalvalue": 71665.535
+        },
+        "fundamental": {
+          "sharesoutstanding": 215141053,
+          "shareclasslevelsharesoutstanding": 218373237,
+          "totalsharesoutstanding": 215141053,
+          "marketcap": 96813474,
+          "pbratio": 15.0,
+          "week52high": {
+            "date": "2023-06-05",
+            "content": 1.06
+          },
+          "week52low": {
+            "date": "2024-05-02",
+            "content": 0.43
+          }
+        },
+        "symbolstring": "XTRA:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "SFD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "NXT Energy Solutions Inc.",
+          "shortname": "SFD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.10,
+          "change": -0.015,
+          "changepercent": -13.043478,
+          "tick": -1,
+          "open": 0.13,
+          "high": 0.135,
+          "low": 0.09,
+          "prevclose": 0.115,
+          "bid": 0.095,
+          "ask": 0.10,
+          "bidsize": 104500,
+          "asksize": 1000,
+          "rawbidsize": 104500,
+          "rawasksize": 1000,
+          "tradevolume": 55,
+          "sharevolume": 233350,
+          "vwap": 0.120625,
+          "vwapvolume": 233000,
+          "lasttradedatetime": "2024-06-04T13:34:23-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:17-04:00",
+          "totalvalue": 23526.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 78196132,
+          "shareclasslevelsharesoutstanding": 78157389,
+          "totalsharesoutstanding": 78196132,
+          "marketcap": 7819613,
+          "pbratio": 0.909,
+          "week52high": {
+            "date": "2023-06-26",
+            "content": 0.35
+          },
+          "week52low": {
+            "date": "2024-05-24",
+            "content": 0.09
+          }
+        },
+        "symbolstring": "SFD:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "GLO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Global Atomic Corporation",
+          "shortname": "GLO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 2.085,
+          "change": 0.015,
+          "changepercent": 0.724638,
+          "tick": 0,
+          "open": 2.03,
+          "high": 2.12,
+          "low": 2.01,
+          "prevclose": 2.07,
+          "bid": 2.08,
+          "ask": 2.09,
+          "bidsize": 3400,
+          "asksize": 800,
+          "rawbidsize": 3400,
+          "rawasksize": 800,
+          "tradevolume": 856,
+          "sharevolume": 423876,
+          "vwap": 2.114038,
+          "vwapvolume": 422400,
+          "lasttradedatetime": "2024-06-04T14:52:38-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:38-04:00",
+          "totalvalue": 876377.279
+        },
+        "fundamental": {
+          "sharesoutstanding": 209611862,
+          "shareclasslevelsharesoutstanding": 209611862,
+          "totalsharesoutstanding": 209611862,
+          "marketcap": 437040732,
+          "pbratio": 3.022,
+          "week52high": {
+            "date": "2024-01-19",
+            "content": 3.91
+          },
+          "week52low": {
+            "date": "2023-08-18",
+            "content": 1.28
+          }
+        },
+        "symbolstring": "GLO:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "SVA:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Sernova Corp.",
+          "shortname": "SVA:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.375,
+          "change": -0.005,
+          "changepercent": -1.315789,
+          "tick": 1,
+          "open": 0.37,
+          "high": 0.385,
+          "low": 0.37,
+          "prevclose": 0.38,
+          "bid": 0.365,
+          "ask": 0.375,
+          "bidsize": 1500,
+          "asksize": 9000,
+          "rawbidsize": 1500,
+          "rawasksize": 9000,
+          "tradevolume": 31,
+          "sharevolume": 99995,
+          "vwap": 0.385571,
+          "vwapvolume": 99500,
+          "lasttradedatetime": "2024-06-04T14:10:46-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 37875.10
+        },
+        "fundamental": {
+          "sharesoutstanding": 303332686,
+          "shareclasslevelsharesoutstanding": 303407686,
+          "totalsharesoutstanding": 303332686,
+          "marketcap": 113749757,
+          "pbratio": 37.5,
+          "week52high": {
+            "date": "2023-06-23",
+            "content": 1.10
+          },
+          "week52low": {
+            "date": "2024-05-23",
+            "content": 0.29
+          }
+        },
+        "symbolstring": "SVA:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "CVO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Coveo Solutions Inc. Subordinate voting shares",
+          "shortname": "CVO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 7.18,
+          "change": -0.16,
+          "changepercent": -2.179837,
+          "tick": 0,
+          "open": 7.70,
+          "high": 7.73,
+          "low": 6.66,
+          "prevclose": 7.34,
+          "bid": 7.18,
+          "ask": 7.19,
+          "bidsize": 500,
+          "asksize": 200,
+          "rawbidsize": 500,
+          "rawasksize": 200,
+          "tradevolume": 2723,
+          "sharevolume": 638669,
+          "vwap": 7.399231,
+          "vwapvolume": 631400,
+          "lasttradedatetime": "2024-06-04T14:52:43-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:43-04:00",
+          "totalvalue": 4537773.77
+        },
+        "fundamental": {
+          "sharesoutstanding": 102131874,
+          "shareclasslevelsharesoutstanding": 61811058,
+          "totalsharesoutstanding": 102131874,
+          "marketcap": 733306855,
+          "pbratio": 4.056,
+          "week52high": {
+            "date": "2024-02-07",
+            "content": 12.48
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 7.26
+          }
+        },
+        "symbolstring": "CVO:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "WRX:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Western Resources Corp.",
+          "shortname": "WRX:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.085,
+          "change": -0.005,
+          "changepercent": -5.555555,
+          "tick": 1,
+          "open": 0.09,
+          "high": 0.09,
+          "low": 0.085,
+          "prevclose": 0.09,
+          "bid": 0.085,
+          "ask": 0.09,
+          "bidsize": 76000,
+          "asksize": 42000,
+          "rawbidsize": 76000,
+          "rawasksize": 42000,
+          "tradevolume": 4,
+          "sharevolume": 6244,
+          "vwap": 0.09,
+          "vwapvolume": 5000,
+          "lasttradedatetime": "2024-06-04T14:00:33-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 552.96
+        },
+        "fundamental": {
+          "sharesoutstanding": 408915478,
+          "shareclasslevelsharesoutstanding": 408915478,
+          "totalsharesoutstanding": 408915478,
+          "marketcap": 34757816,
+          "peratio": 22.59,
+          "pbratio": 0.142,
+          "week52high": {
+            "date": "2023-06-08",
+            "content": 0.29
+          },
+          "week52low": {
+            "date": "2024-05-10",
+            "content": 0.065
+          }
+        },
+        "symbolstring": "WRX:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "BHC:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Bausch Health Companies Inc.",
+          "shortname": "BHC:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 8.54,
+          "change": -0.08,
+          "changepercent": -0.928074,
+          "tick": 0,
+          "open": 8.55,
+          "high": 8.68,
+          "low": 8.52,
+          "prevclose": 8.62,
+          "bid": 8.53,
+          "ask": 8.54,
+          "bidsize": 2400,
+          "asksize": 1500,
+          "rawbidsize": 2400,
+          "rawasksize": 1500,
+          "tradevolume": 821,
+          "sharevolume": 118975,
+          "vwap": 8.694463,
+          "vwapvolume": 118100,
+          "lasttradedatetime": "2024-06-04T14:49:05-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:37-04:00",
+          "totalvalue": 1021795.76
+        },
+        "fundamental": {
+          "sharesoutstanding": 366796721,
+          "shareclasslevelsharesoutstanding": 360989744,
+          "totalsharesoutstanding": 366796721,
+          "marketcap": 3132443997,
+          "pbratio": -3.061,
+          "week52high": {
+            "date": "2024-04-03",
+            "content": 15.43
+          },
+          "week52low": {
+            "date": "2024-05-30",
+            "content": 8.32
+          }
+        },
+        "symbolstring": "BHC:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "HND:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "BetaPro Natural Gas Inverse Leveraged Daily Bear ETF",
+          "shortname": "HND:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 70.00,
+          "change": 7.65,
+          "changepercent": 12.269446,
+          "tick": 0,
+          "open": 64.24,
+          "high": 71.00,
+          "low": 63.06,
+          "prevclose": 62.35,
+          "bid": 69.90,
+          "ask": 70.20,
+          "bidsize": 800,
+          "asksize": 1700,
+          "rawbidsize": 800,
+          "rawasksize": 1700,
+          "tradevolume": 1168,
+          "sharevolume": 234293,
+          "vwap": 64.573859,
+          "vwapvolume": 225100,
+          "lasttradedatetime": "2024-06-04T14:49:02-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:39-04:00",
+          "totalvalue": 15608777.10
+        },
+        "fundamental": {
+          "shareclasslevelsharesoutstanding": 926189,
+          "week52high": {
+            "date": "2024-02-20",
+            "content": 133.92
+          },
+          "week52low": {
+            "date": "2023-10-31",
+            "content": 38.61
+          }
+        },
+        "symbolstring": "HND:CA",
+        "datatype": "etf",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "NOVC:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Nova Cannabis Inc.",
+          "shortname": "NOVC:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 1.18,
+          "change": -0.03,
+          "changepercent": -2.479339,
+          "tick": 0,
+          "open": 1.27,
+          "high": 1.27,
+          "low": 1.17,
+          "prevclose": 1.21,
+          "bid": 1.16,
+          "ask": 1.20,
+          "bidsize": 600,
+          "asksize": 100,
+          "rawbidsize": 600,
+          "rawasksize": 100,
+          "tradevolume": 22,
+          "sharevolume": 27529,
+          "vwapvolume": 27400,
+          "lasttradedatetime": "2024-06-04T14:47:45-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:23-04:00",
+          "totalvalue": 32662.9899
+        },
+        "fundamental": {
+          "sharesoutstanding": 57268840,
+          "shareclasslevelsharesoutstanding": 62082171,
+          "totalsharesoutstanding": 57268840,
+          "marketcap": 67577231,
+          "eps": 0.05,
+          "pbratio": 1.341,
+          "week52high": {
+            "date": "2024-03-04",
+            "content": 2.08
+          },
+          "week52low": {
+            "date": "2023-08-08",
+            "content": 0.395
+          }
+        },
+        "symbolstring": "NOVC:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "CJR.B:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Corus Entertainment Inc. Class B Non-Voting Shares",
+          "shortname": "CJR.B:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.46,
+          "change": -0.015,
+          "changepercent": -3.157895,
+          "tick": 0,
+          "open": 0.48,
+          "high": 0.48,
+          "low": 0.46,
+          "prevclose": 0.475,
+          "bid": 0.46,
+          "ask": 0.47,
+          "bidsize": 20500,
+          "asksize": 46500,
+          "rawbidsize": 20500,
+          "rawasksize": 46500,
+          "tradevolume": 67,
+          "sharevolume": 173387,
+          "vwap": 0.478795,
+          "vwapvolume": 170500,
+          "lasttradedatetime": "2024-06-04T14:46:52-04:00",
+          "lastquotedatetime": "2024-06-04T14:46:53-04:00",
+          "totalvalue": 81081.0599
+        },
+        "fundamental": {
+          "sharesoutstanding": 199440158,
+          "shareclasslevelsharesoutstanding": 196074764,
+          "totalsharesoutstanding": 199440158,
+          "marketcap": 91742473,
+          "pbratio": 0.277,
+          "week52high": {
+            "date": "2023-07-14",
+            "content": 1.656644
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 0.47
+          }
+        },
+        "symbolstring": "CJR.B:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "ECN:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "ECN Capital Corp.",
+          "shortname": "ECN:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 1.77,
+          "change": -0.03,
+          "changepercent": -1.666667,
+          "tick": 0,
+          "open": 1.79,
+          "high": 1.80,
+          "low": 1.72,
+          "prevclose": 1.80,
+          "bid": 1.77,
+          "ask": 1.78,
+          "bidsize": 5100,
+          "asksize": 7200,
+          "rawbidsize": 5100,
+          "rawasksize": 7200,
+          "tradevolume": 799,
+          "sharevolume": 209847,
+          "vwap": 1.745777,
+          "vwapvolume": 209700,
+          "lasttradedatetime": "2024-06-04T14:52:17-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:43-04:00",
+          "totalvalue": 367129.60
+        },
+        "fundamental": {
+          "sharesoutstanding": 279946742,
+          "shareclasslevelsharesoutstanding": 281120223,
+          "totalsharesoutstanding": 279946742,
+          "marketcap": 495505733,
+          "pbratio": 6.808,
+          "week52high": {
+            "date": "2023-06-09",
+            "content": 3.25
+          },
+          "week52low": {
+            "date": "2024-03-25",
+            "content": 1.60
+          },
+          "dividend": {
+            "date": "2024-06-14",
+            "amount": 0.04,
+            "yield": 2.222,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.01
+            },
+            "frequency": "Q",
+            "paydate": "2024-07-02",
+            "declaredDate": "2024-05-09"
+          }
+        },
+        "symbolstring": "ECN:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "DCBO:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Docebo Inc.",
+          "shortname": "DCBO:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 49.24,
+          "change": 0.63,
+          "changepercent": 1.29603,
+          "tick": 1,
+          "open": 48.55,
+          "high": 49.31,
+          "low": 48.37,
+          "prevclose": 48.61,
+          "bid": 49.21,
+          "ask": 49.25,
+          "bidsize": 200,
+          "asksize": 100,
+          "rawbidsize": 200,
+          "rawasksize": 100,
+          "tradevolume": 197,
+          "sharevolume": 19735,
+          "vwap": 48.233326,
+          "vwapvolume": 19200,
+          "lasttradedatetime": "2024-06-04T14:52:00-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:31-04:00",
+          "totalvalue": 962641.48
+        },
+        "fundamental": {
+          "sharesoutstanding": 31717338,
+          "shareclasslevelsharesoutstanding": 30383591,
+          "totalsharesoutstanding": 31717338,
+          "marketcap": 1561761723,
+          "eps": 0.08,
+          "peratio": 401.54,
+          "pbratio": 26.191,
+          "week52high": {
+            "date": "2024-03-01",
+            "content": 76.27
+          },
+          "week52low": {
+            "date": "2023-08-10",
+            "content": 46.00
+          }
+        },
+        "symbolstring": "DCBO:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "NCF:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Northcliff Resources Ltd.",
+          "shortname": "NCF:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.02,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "open": 0.02,
+          "high": 0.02,
+          "low": 0.02,
+          "prevclose": 0.02,
+          "bid": 0.02,
+          "ask": 0.025,
+          "bidsize": 61000,
+          "asksize": 261000,
+          "rawbidsize": 61000,
+          "rawasksize": 261000,
+          "tradevolume": 2,
+          "sharevolume": 15000,
+          "vwapvolume": 15000,
+          "lasttradedatetime": "2024-06-04T12:59:18-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 300.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 589112000,
+          "shareclasslevelsharesoutstanding": 589112000,
+          "totalsharesoutstanding": 589112000,
+          "marketcap": 11782240,
+          "pbratio": 0.5,
+          "week52high": {
+            "date": "2023-09-08",
+            "content": 0.035
+          },
+          "week52low": {
+            "date": "2024-05-29",
+            "content": 0.02
+          }
+        },
+        "symbolstring": "NCF:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "AVNT:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Avant Brands Inc.",
+          "shortname": "AVNT:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.07,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 1,
+          "open": 0.07,
+          "high": 0.075,
+          "low": 0.07,
+          "prevclose": 0.07,
+          "bid": 0.07,
+          "ask": 0.075,
+          "bidsize": 46000,
+          "asksize": 92000,
+          "rawbidsize": 46000,
+          "rawasksize": 92000,
+          "tradevolume": 13,
+          "sharevolume": 166625,
+          "vwap": 0.069747,
+          "vwapvolume": 165000,
+          "lasttradedatetime": "2024-06-04T12:20:44-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:12-04:00",
+          "totalvalue": 11964.825
+        },
+        "fundamental": {
+          "sharesoutstanding": 259088554,
+          "shareclasslevelsharesoutstanding": 285846243,
+          "totalsharesoutstanding": 259088554,
+          "marketcap": 18136199,
+          "pbratio": 0.368,
+          "week52high": {
+            "date": "2023-08-02",
+            "content": 0.325
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 0.065
+          }
+        },
+        "symbolstring": "AVNT:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TXP:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Touchstone Exploration Inc.",
+          "shortname": "TXP:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.58,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": 0,
+          "open": 0.58,
+          "high": 0.58,
+          "low": 0.56,
+          "prevclose": 0.58,
+          "bid": 0.56,
+          "ask": 0.58,
+          "bidsize": 4000,
+          "asksize": 41000,
+          "rawbidsize": 4000,
+          "rawasksize": 41000,
+          "tradevolume": 34,
+          "sharevolume": 44733,
+          "vwap": 0.580606,
+          "vwapvolume": 44500,
+          "lasttradedatetime": "2024-06-04T14:51:16-04:00",
+          "lastquotedatetime": "2024-06-04T14:51:54-04:00",
+          "totalvalue": 25365.1399
+        },
+        "fundamental": {
+          "sharesoutstanding": 234212726,
+          "shareclasslevelsharesoutstanding": 234212726,
+          "totalsharesoutstanding": 234212726,
+          "marketcap": 135843381,
+          "pbratio": 2.148,
+          "week52high": {
+            "date": "2023-08-08",
+            "content": 1.53
+          },
+          "week52low": {
+            "date": "2024-05-27",
+            "content": 0.53
+          }
+        },
+        "symbolstring": "TXP:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "EGLX:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Enthusiast Gaming Holdings Inc.",
+          "shortname": "EGLX:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.14,
+          "change": 0.005,
+          "changepercent": 3.703704,
+          "tick": 0,
+          "open": 0.135,
+          "high": 0.14,
+          "low": 0.13,
+          "prevclose": 0.135,
+          "bid": 0.14,
+          "ask": 0.145,
+          "bidsize": 17000,
+          "asksize": 27000,
+          "rawbidsize": 17000,
+          "rawasksize": 27000,
+          "tradevolume": 25,
+          "sharevolume": 253821,
+          "vwap": 0.137802,
+          "vwapvolume": 253500,
+          "lasttradedatetime": "2024-06-04T14:36:05-04:00",
+          "lastquotedatetime": "2024-06-04T14:36:05-04:00",
+          "totalvalue": 34516.83
+        },
+        "fundamental": {
+          "sharesoutstanding": 155721839,
+          "shareclasslevelsharesoutstanding": 155721839,
+          "totalsharesoutstanding": 155721839,
+          "marketcap": 21801057,
+          "pbratio": 0.12,
+          "week52high": {
+            "date": "2023-07-25",
+            "content": 0.82
+          },
+          "week52low": {
+            "date": "2024-05-31",
+            "content": 0.13
+          }
+        },
+        "symbolstring": "EGLX:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "SOT.UN:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Slate Office REIT",
+          "shortname": "SOT.UN:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.56,
+          "change": 0.01,
+          "changepercent": 1.818182,
+          "tick": -1,
+          "open": 0.56,
+          "high": 0.56,
+          "low": 0.55,
+          "prevclose": 0.55,
+          "bid": 0.55,
+          "ask": 0.56,
+          "bidsize": 27500,
+          "asksize": 2000,
+          "rawbidsize": 27500,
+          "rawasksize": 2000,
+          "tradevolume": 28,
+          "sharevolume": 25165,
+          "vwap": 0.558109,
+          "vwapvolume": 24500,
+          "lasttradedatetime": "2024-06-04T13:02:04-04:00",
+          "lastquotedatetime": "2024-06-04T14:45:32-04:00",
+          "totalvalue": 13954.9999
+        },
+        "fundamental": {
+          "sharesoutstanding": 85703244,
+          "shareclasslevelsharesoutstanding": 80049062,
+          "totalsharesoutstanding": 85703244,
+          "marketcap": 47993817,
+          "pbratio": 0.093,
+          "week52high": {
+            "date": "2023-06-19",
+            "content": 2.10
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 0.55
+          },
+          "dividend": {
+            "date": "2023-10-30",
+            "amount": 0.12,
+            "yield": 21.818,
+            "latestamount": {
+              "currency": "CAD",
+              "content": 0.01
+            },
+            "frequency": "M",
+            "paydate": "2023-11-15",
+            "declaredDate": "2023-10-16"
+          }
+        },
+        "symbolstring": "SOT.UN:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "FRX:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Fennec Pharmaceuticals Inc.",
+          "shortname": "FRX:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 9.00,
+          "change": 0.00,
+          "changepercent": 0,
+          "tick": -1,
+          "prevclose": 9.00,
+          "bid": 9.19,
+          "ask": 9.28,
+          "bidsize": 200,
+          "asksize": 500,
+          "rawbidsize": 200,
+          "rawasksize": 500,
+          "tradevolume": 0,
+          "sharevolume": 0,
+          "vwap": 9.01875,
+          "vwapvolume": 0,
+          "lasttradedatetime": "2024-06-03T14:15:14-04:00",
+          "lastquotedatetime": "2024-06-04T14:52:21-04:00"
+        },
+        "fundamental": {
+          "sharesoutstanding": 27099908,
+          "shareclasslevelsharesoutstanding": 27323530,
+          "totalsharesoutstanding": 27099908,
+          "marketcap": 243899172,
+          "eps": 0.13,
+          "pbratio": -20.93,
+          "week52high": {
+            "date": "2023-12-28",
+            "content": 15.43
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 9.00
+          }
+        },
+        "symbolstring": "FRX:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "SVB:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Silver Bull Resources Inc.",
+          "shortname": "SVB:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.14,
+          "change": 0.01,
+          "changepercent": 7.692307,
+          "tick": -1,
+          "open": 0.14,
+          "high": 0.14,
+          "low": 0.14,
+          "prevclose": 0.13,
+          "bid": 0.135,
+          "ask": 0.14,
+          "bidsize": 1000,
+          "asksize": 19500,
+          "rawbidsize": 1000,
+          "rawasksize": 19500,
+          "tradevolume": 2,
+          "sharevolume": 23000,
+          "vwap": 0.134894,
+          "vwapvolume": 23000,
+          "lasttradedatetime": "2024-06-04T13:08:56-04:00",
+          "lastquotedatetime": "2024-06-04T14:30:00-04:00",
+          "totalvalue": 3220.00
+        },
+        "fundamental": {
+          "sharesoutstanding": 47365652,
+          "shareclasslevelsharesoutstanding": 47365652,
+          "totalsharesoutstanding": 47365652,
+          "marketcap": 6631191,
+          "pbratio": 1.167,
+          "week52high": {
+            "date": "2023-06-06",
+            "content": 0.20
+          },
+          "week52low": {
+            "date": "2023-08-24",
+            "content": 0.085
+          }
+        },
+        "symbolstring": "SVB:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      },
+      {
+        "key": {
+          "symbol": "TMD:CA",
+          "exchange": "TSX",
+          "exLgName": "Toronto Stock Exchange",
+          "exShName": "TSX"
+        },
+        "equityinfo": {
+          "longname": "Titan Medical Inc.",
+          "shortname": "TMD:CA"
+        },
+        "status": {},
+        "pricedata": {
+          "last": 0.055,
+          "change": -0.005,
+          "changepercent": -8.333333,
+          "tick": 1,
+          "open": 0.055,
+          "high": 0.055,
+          "low": 0.055,
+          "prevclose": 0.06,
+          "bid": 0.055,
+          "ask": 0.06,
+          "bidsize": 47000,
+          "asksize": 80000,
+          "rawbidsize": 47000,
+          "rawasksize": 80000,
+          "tradevolume": 6,
+          "sharevolume": 30005,
+          "vwap": 0.057949,
+          "vwapvolume": 30000,
+          "lasttradedatetime": "2024-06-04T13:52:36-04:00",
+          "lastquotedatetime": "2024-06-04T14:31:44-04:00",
+          "totalvalue": 1650.30
+        },
+        "fundamental": {
+          "sharesoutstanding": 112843000,
+          "shareclasslevelsharesoutstanding": 114039850,
+          "totalsharesoutstanding": 112843000,
+          "marketcap": 6206365,
+          "eps": 0.09,
+          "pbratio": 0.786,
+          "week52high": {
+            "date": "2023-06-05",
+            "content": 0.25
+          },
+          "week52low": {
+            "date": "2024-06-03",
+            "content": 0.05
+          }
+        },
+        "symbolstring": "TMD:CA",
+        "datatype": "equity",
+        "entitlement": "DL",
+        "delaymin": 15,
+        "datetime": "2024-06-04T14:52:44-04:00"
+      }
+    ]
+  }
+}
