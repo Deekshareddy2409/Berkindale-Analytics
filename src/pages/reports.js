@@ -91,9 +91,11 @@ export default function Reports({tickers}) {
     setErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
-        setShowChart(!showChart);
+        setShowChart(true);
       console.log('Success: All fields are filled.');
     } else {
+        setShowChart(false);
+
       console.error('Error: Please fill in all required fields.');
     }
   };

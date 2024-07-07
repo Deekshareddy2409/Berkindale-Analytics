@@ -19,7 +19,7 @@ const Chart = ({ data,title }) => {
     useEffect(() => {
         const chartOptions = {
             layout: {
-                textColor: theme.palette.text.primary,
+                textColor: theme.palette.text.secondary,
                 background: { type: 'solid', color: theme.palette.background.default },
             },
             grid: {
@@ -29,6 +29,15 @@ const Chart = ({ data,title }) => {
                 horzLines: {
                     color: theme.palette.divider,
                 },
+            },
+            leftPriceScale: {
+                visible: true,
+            },
+            rightPriceScale: {
+                visible: false,
+            },
+            timeScale: {
+                borderVisible: true,
             },
             handleScroll: isScrollEnabled,
             handleScale: isScaleEnabled,
@@ -88,7 +97,7 @@ const Chart = ({ data,title }) => {
         <Paper>
 
         <Box className="chart-container" p={2}>
-                            <Typography variant="h6">{title}</Typography>
+                            <Typography variant="subtitle1">{title}</Typography>
 
             <Box display="flex" justifyContent="flex-end" alignItems="center" p={0}>
             <Box>
