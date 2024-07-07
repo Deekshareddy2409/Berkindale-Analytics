@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Box, Paper, Grid, TextField, Button, InputAdornment, FormControl, Select, MenuItem, InputLabel } from '@mui/material';
 import ComboBoxWithChips from '../components/ComboBoxWithChips';
 import Chart from '../components/Chart';
-
+import CustomDatePicker
+ from '../components/CustomDatePicker';
 export default function Reports({tickers}) {
     console.log('in in report',tickers)
   const [selectedTicker, setSelectedTicker] = useState([]);
@@ -76,7 +77,7 @@ export default function Reports({tickers}) {
   const handleSubmit = () => {
     const newErrors = {};
     if (selectedTicker.length === 0) newErrors.selectedTicker = true;
-    // if (!selectedDate) newErrors.selectedDate = true;
+    if (!selectedDate) newErrors.selectedDate = true;
     if (!orderTypes) newErrors.orderTypes = true;
     if (!valueTraded) newErrors.valueTraded = true;
     if (!commission) newErrors.commission = true;
@@ -102,7 +103,6 @@ export default function Reports({tickers}) {
     <Box p={3}>
       <Paper>
         <Grid container spacing={2} p={2}>
-          {/* Ticker(s) */}
           <Grid item xs={12} sm={5}>
             <ComboBoxWithChips
               value={selectedTicker}
@@ -113,26 +113,16 @@ export default function Reports({tickers}) {
             />
            
           </Grid>
-          {/* Date */}
           <Grid item xs={12} sm={4}>
-            {/* <CustomDatePicker
+          <CustomDatePicker
+              label="Select Date"
               value={selectedDate}
-              onChange={(date) => handleFieldChange('selectedDate', date)}
+              onChange={(e) => handleFieldChange('selectedDate', e.target.value)}
               error={!!errors.selectedDate}
               helperText={errors.selectedDate ? 'Required' : ''}
-            /> */}
+            />
           </Grid>
-          {/* Order Types */}
           <Grid item xs={12} sm={3}>
-            {/* <TextField
-              label="Order types"
-              variant="outlined"
-              fullWidth
-              value={orderTypes}
-              onChange={(e) => handleFieldChange('orderTypes', e.target.value)}
-              error={!!errors.orderTypes}
-              helperText={errors.orderTypes ? 'Required' : ''}
-            /> */}
              <FormControl variant="outlined" fullWidth error={!!errors.orderTypes}>
               <InputLabel>Order types</InputLabel>
               <Select
@@ -147,7 +137,6 @@ export default function Reports({tickers}) {
             </FormControl>
           </Grid>
 
-          {/* Value Traded */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Value Traded (mm)"
@@ -164,7 +153,6 @@ export default function Reports({tickers}) {
               }}
             />
           </Grid>
-          {/* Commission */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Commission ('000s)"
@@ -181,7 +169,6 @@ export default function Reports({tickers}) {
               }}
             />
           </Grid>
-          {/* Parent Orders */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Parent Orders"
@@ -194,7 +181,6 @@ export default function Reports({tickers}) {
               helperText={errors.parentOrders ? 'Required' : ''}
             />
           </Grid>
-          {/* Securities */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Securities"
@@ -208,7 +194,6 @@ export default function Reports({tickers}) {
             />
           </Grid>
        
-          {/* Arrival Performance */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Arrival Performance"
@@ -221,7 +206,6 @@ export default function Reports({tickers}) {
               helperText={errors.arrivalPerformance ? 'Required' : ''}
             />
           </Grid>
-          {/* VWAP Performance */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="VWAP Performance"
@@ -234,7 +218,6 @@ export default function Reports({tickers}) {
               helperText={errors.vwapPerformance ? 'Required' : ''}
             />
           </Grid>
-             {/* Brokers */}
              <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Brokers"
@@ -247,7 +230,6 @@ export default function Reports({tickers}) {
               helperText={errors.brokers ? 'Required' : ''}
             />
           </Grid>
-          {/* Algos */}
           <Grid item xs={12} sm={6} md={3}>
             <TextField
               label="Algos"
@@ -275,7 +257,6 @@ export default function Reports({tickers}) {
 
 {showChart && (
     <Grid container spacing={2} p={2}>
-          {/* Ticker(s) */}
           <Grid item xs={12} sm={6}>
           <Chart data={chartData} title="PricePath"/>
 
