@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Paper, Grid, TextField, Button, InputAdornment, FormControl, Select, MenuItem, InputLabel } from '@mui/material';
 import ComboBoxWithChips from '../components/ComboBoxWithChips';
-import Chart from '../components/Chart';
+import Area from '../components/Charts/Area';
 import CustomDatePicker
  from '../components/CustomDatePicker';
-export default function Reports({tickers}) {
-    console.log('in in report',tickers)
+ import marketData from '../MarketStats/ah.json';  // Change this path to your JSON file
+
+export default function Reports() {
+  const [tickers, setTickers] = useState([]);
   const [selectedTicker, setSelectedTicker] = useState([]);
   const [selectedDate, setSelectedDate] = useState(null);
   const [orderTypes, setOrderTypes] = useState('');
@@ -19,10 +21,33 @@ export default function Reports({tickers}) {
   const [vwapPerformance, setVwapPerformance] = useState('');
   const [chartData, setChartData] = useState([]);
   const [showChart, setShowChart] = useState(false);
+
+  useEffect(() => {
+    // const importAll = (r) => r.keys().map(r);
+    // const files = importAll(require.context('../MarketStats', false, /\.json$/));
+
+    // const combinedTickers = files.flatMap((file) => file.results.quote);
+    // const uniqueTickers = Array.from(new Map(combinedTickers.map(item => [`${item?.equityinfo?.shortname}-${item?.key?.symbol}`, item])).values());
+
+    // console.log('im all files',combinedTickers,uniqueTickers)
+    // setTickers(uniqueTickers);
+
+    const combinedTickers = marketData.results.quote;
+
+    // Remove duplicates based on shortname and other unique attributes
+    const uniqueTickers = Array.from(new Map(combinedTickers.map(item => [item?.key?.symbol, item])).values());
+
+    console.log('Combined Tickers:', combinedTickers);
+    console.log('Unique Tickers:', uniqueTickers);
+    setTickers(uniqueTickers);
+  }, []);
+
   useEffect(()=>{
-    const marketData = [{ value: 0, time: 1642425322 }, { value: 8, time: 1642511722 }, { value: 10, time: 1642598122 }, { value: 20, time: 1642684522 }, { value: 3, time: 1642770922 }, { value: 43, time: 1642857322 }, { value: 41, time: 1642943722 }, { value: 43, time: 1643030122 }, { value: 56, time: 1643116522 }, { value: 46, time: 1643202922 }];
-    setChartData(marketData);
+    const Data = [{ value: 0, time: 1642425322 }, { value: 8, time: 1642511722 }, { value: 10, time: 1642598122 }, { value: 20, time: 1642684522 }, { value: 3, time: 1642770922 }, { value: 43, time: 1642857322 }, { value: 41, time: 1642943722 }, { value: 43, time: 1643030122 }, { value: 56, time: 1643116522 }, { value: 46, time: 1643202922 }];
+    setChartData(Data);
   },[])
+
+
   const [errors, setErrors] = useState({});
 
   const handleFieldChange = (field, value) => {
@@ -260,38 +285,38 @@ export default function Reports({tickers}) {
 {showChart && (
     <Grid container spacing={2} p={2}>
           <Grid item xs={12} sm={6}>
-          <Chart data={chartData} title="PricePath"/>
+          <Area data={chartData} title="PricePath"/>
 
             </Grid>
 
             <Grid item xs={12} sm={6}>
-          <Chart data={chartData} title="Adverse selection by side"/>
+          <Area data={chartData} title="Adverse selection by side"/>
 
             </Grid>
 
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="Arrival Cost by Side"/>
+          <Area data={chartData} title="Arrival Cost by Side"/>
 
             </Grid>
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="Arrival Cost by Broker"/>
+          <Area data={chartData} title="Arrival Cost by Broker"/>
 
             </Grid>
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="Arrival Cost by Algo"/>
+          <Area data={chartData} title="Arrival Cost by Algo"/>
 
             </Grid>
 
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="VWAP Cost by Side"/>
+          <Area data={chartData} title="VWAP Cost by Side"/>
 
             </Grid>
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="VWAP Cost by Broker"/>
+          <Area data={chartData} title="VWAP Cost by Broker"/>
 
             </Grid>
             <Grid item xs={12} sm={4}>
-          <Chart data={chartData} title="VWAP Cost by Algo"/>
+          <Area data={chartData} title="VWAP Cost by Algo"/>
 
             </Grid>
             </Grid>

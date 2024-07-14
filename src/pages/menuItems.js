@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
@@ -10,39 +11,26 @@ import ExpandMore from '@mui/icons-material/ExpandMore';
 
 export const mainListItems = (drawerOpen) => (
   <React.Fragment>
-   
     <NestedListItem text="Reports" icon={<BarChartIcon />} drawerOpen={drawerOpen}>
-      <ListItemButton sx={{ pl: 4 }}>
+      <ListItemButton component={Link} to="/trade-performance" sx={{ pl: 4 }}>
         <ListItemText primary="Trade Performance" />
       </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
-        <ListItemText primary="Orders" />
-      </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
+      <ListItemButton component={Link} to="/reports#brokers" sx={{ pl: 4 }}>
         <ListItemText primary="Brokers" />
       </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
+      <ListItemButton component={Link} to="/reports#venues" sx={{ pl: 4 }}>
         <ListItemText primary="Venues" />
       </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
+      <ListItemButton component={Link} to="/reports#algos" sx={{ pl: 4 }}>
         <ListItemText primary="Algos" />
       </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
-        <ListItemText primary="Best Execution Report" />
-      </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
-        <ListItemText primary="Broker Report Card" />
-      </ListItemButton>
-      <ListItemButton sx={{ pl: 4 }}>
-        <ListItemText primary="Order Search" />
-      </ListItemButton>
+      {/* Add more ListItemButton as needed */}
     </NestedListItem>
-   
-    <ListItemButton>
+    <ListItemButton component={Link} to="/broker-report-card" >
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary="Integrations" />
+      <ListItemText primary="Broker Report Card" />
     </ListItemButton>
   </React.Fragment>
 );

@@ -11,9 +11,8 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import Reports from './reports';
 import { mainListItems } from './menuItems';
-import marketData from '../MarketStats/ah.json';  // Change this path to your JSON file
+import { Outlet } from 'react-router-dom';
 
 const drawerWidth = 240;
 
@@ -63,31 +62,10 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 export default function Main() {
   const [open, setOpen] = React.useState(false);
-  const [tickers, setTickers] = React.useState([]);
 
   const toggleDrawer = () => {
     setOpen(!open);
   };
-
-  React.useEffect(() => {
-    // const importAll = (r) => r.keys().map(r);
-    // const files = importAll(require.context('../MarketStats', false, /\.json$/));
-
-    // const combinedTickers = files.flatMap((file) => file.results.quote);
-    // const uniqueTickers = Array.from(new Map(combinedTickers.map(item => [`${item?.equityinfo?.shortname}-${item?.key?.symbol}`, item])).values());
-
-    // console.log('im all files',combinedTickers,uniqueTickers)
-    // setTickers(uniqueTickers);
-
-    const combinedTickers = marketData.results.quote;
-
-    // Remove duplicates based on shortname and other unique attributes
-    const uniqueTickers = Array.from(new Map(combinedTickers.map(item => [item?.key?.symbol, item])).values());
-
-    console.log('Combined Tickers:', combinedTickers);
-    console.log('Unique Tickers:', uniqueTickers);
-    setTickers(uniqueTickers);
-  }, []);
 
   return (
     <Box sx={{ display: 'flex' }}>
@@ -95,7 +73,7 @@ export default function Main() {
       <AppBar position="absolute" open={open}>
         <Toolbar
           sx={{
-            pr: '24px', // keep right padding when drawer closed
+            pr: '24px',
           }}
         >
           <IconButton
@@ -152,7 +130,7 @@ export default function Main() {
         }}
       >
         <Toolbar />
-        <Reports tickers={tickers} />
+        <Outlet />
       </Box>
     </Box>
   );
