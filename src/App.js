@@ -1,10 +1,10 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './pages/main';
 import Reports from './pages/Reports';
 import TabbedPage from './pages/TabbedPage';
-import BrokerReportCard  from './pages/BrokerReportCard'
+import BrokerReportCard from './pages/BrokerReportCard';
 
 const darkTheme = createTheme({
   palette: {
@@ -19,8 +19,8 @@ export default function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Main />}>
-            <Route path="/trade-performance" element={<Reports />} />
-            <Route path='/broker-report-card' element={<BrokerReportCard/>} />
+            <Route path="trade-performance" element={<Reports />} />
+            <Route path="broker-report-card" element={<BrokerReportCard />} />
             <Route path="reports/*" element={<TabbedPage />} />
           </Route>
         </Routes>
