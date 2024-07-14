@@ -93,7 +93,7 @@ export default function TabbedPage() {
             );
           })}
         </Grid>
-        <Tabs value={currentHash} onChange={handleChange} centered>
+        <Tabs value={currentHash} onChange={handleChange}>
           <Tab label="Brokers" value="brokers" />
           <Tab label="Venues" value="venues" />
           <Tab label="Algos" value="algos" />

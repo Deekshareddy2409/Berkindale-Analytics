@@ -39,17 +39,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script>
-      // Redirect to index.html for client-side routing
-      if (
-        window.location.pathname !== "/Berkindale-Analytics/" &&
-        !window.location.hash
-      ) {
-        window.location =
-          window.location.origin +
-          "/Berkindale-Analytics/" +
-          window.location.pathname.substring(1);
-      }
-    </script>
   </body>
 </html>
