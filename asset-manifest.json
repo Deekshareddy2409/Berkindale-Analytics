@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Berkindale-Analytics/static/css/main.ff21140e.css",
-    "main.js": "/Berkindale-Analytics/static/js/main.694516f2.js",
+    "main.js": "/Berkindale-Analytics/static/js/main.b4021b87.js",
     "static/js/453.aafab563.chunk.js": "/Berkindale-Analytics/static/js/453.aafab563.chunk.js",
     "index.html": "/Berkindale-Analytics/index.html",
     "main.ff21140e.css.map": "/Berkindale-Analytics/static/css/main.ff21140e.css.map",
-    "main.694516f2.js.map": "/Berkindale-Analytics/static/js/main.694516f2.js.map",
+    "main.b4021b87.js.map": "/Berkindale-Analytics/static/js/main.b4021b87.js.map",
     "453.aafab563.chunk.js.map": "/Berkindale-Analytics/static/js/453.aafab563.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff21140e.css",
-    "static/js/main.694516f2.js"
+    "static/js/main.b4021b87.js"
   ]
 }
