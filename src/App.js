@@ -19,9 +19,9 @@ export default function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Main />}>
-            <Route path="trade-performance" element={<Reports />} />
+            <Route path="reports" element={<Reports />} />
+            <Route path="/trade-performance/*" element={<TabbedPage />} />
             <Route path="broker-report-card" element={<BrokerReportCard />} />
-            <Route path="reports/*" element={<TabbedPage />} />
           </Route>
         </Routes>
       </Router>

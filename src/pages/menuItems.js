@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
@@ -9,42 +9,22 @@ import LayersIcon from '@mui/icons-material/Layers';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
-export const mainListItems = (drawerOpen) => (
-  <React.Fragment>
-    <NestedListItem text="Reports" icon={<BarChartIcon />} drawerOpen={drawerOpen}>
-      <ListItemButton component={Link} to="/trade-performance" sx={{ pl: 4 }}>
-        <ListItemText primary="Trade Performance" />
-      </ListItemButton>
-      <ListItemButton component={Link} to="/reports#brokers" sx={{ pl: 4 }}>
-        <ListItemText primary="Brokers" />
-      </ListItemButton>
-      <ListItemButton component={Link} to="/reports#venues" sx={{ pl: 4 }}>
-        <ListItemText primary="Venues" />
-      </ListItemButton>
-      <ListItemButton component={Link} to="/reports#algos" sx={{ pl: 4 }}>
-        <ListItemText primary="Algos" />
-      </ListItemButton>
-      {/* Add more ListItemButton as needed */}
-    </NestedListItem>
-    <ListItemButton component={Link} to="/broker-report-card" >
-      <ListItemIcon>
-        <LayersIcon />
-      </ListItemIcon>
-      <ListItemText primary="Broker Report Card" />
-    </ListItemButton>
-  </React.Fragment>
-);
-
-function NestedListItem({ text, icon, children, drawerOpen }) {
+const NestedListItem = ({ text, icon, children, drawerOpen }) => {
   const [open, setOpen] = React.useState(false);
+  const navigate = useNavigate();
 
   const handleClick = () => {
     setOpen(!open);
   };
 
+  const handleNavigation = (path) => {
+    navigate(path);
+    setOpen(true);  // Keep the nested items expanded when navigating
+  };
+
   return (
     <React.Fragment>
-      <ListItemButton onClick={handleClick}>
+      <ListItemButton onClick={() => handleNavigation('/reports')}>
         <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText primary={text} />
         {open ? <ExpandLess /> : <ExpandMore />}
@@ -56,4 +36,33 @@ function NestedListItem({ text, icon, children, drawerOpen }) {
       )}
     </React.Fragment>
   );
-}
+};
+
+export const mainListItems = (drawerOpen) => (
+  <React.Fragment>
+    <NestedListItem text="Reports" icon={<BarChartIcon />} drawerOpen={drawerOpen}>
+      <ListItemButton component={Link} to="/trade-performance/orders" sx={{ pl: 4}}>
+        <ListItemText primary="Trade Performance" />
+      </ListItemButton>
+      <ListItemButton component={Link} to="/trade-performance/orders" sx={{ pl: 4, ml:6  }}>
+        <ListItemText primary="Orders" />
+      </ListItemButton>
+      <ListItemButton component={Link} to="/trade-performance/brokers" sx={{ pl: 4, ml:6  }}>
+        <ListItemText primary="Brokers" />
+      </ListItemButton>
+      <ListItemButton component={Link} to="/trade-performance/venues" sx={{ pl: 4, ml:6  }}>
+        <ListItemText primary="Venues" />
+      </ListItemButton>
+      <ListItemButton component={Link} to="/trade-performance/algos" sx={{ pl: 4, ml:6  }}>
+        <ListItemText primary="Algos" />
+      </ListItemButton>
+      {/* Add more ListItemButton as needed */}
+    </NestedListItem>
+    <ListItemButton component={Link} to="/broker-report-card">
+      <ListItemIcon>
+        <LayersIcon />
+      </ListItemIcon>
+      <ListItemText primary="Broker Report Card" />
+    </ListItemButton>
+  </React.Fragment>
+);

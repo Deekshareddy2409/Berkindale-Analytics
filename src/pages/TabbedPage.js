@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { Tabs, Tab, Box, Grid, Paper, Typography, Drawer, Divider, Button,  FormControl, Select, MenuItem, InputLabel  } from '@mui/material';
+import { useNavigate, useLocation, Route, Routes } from 'react-router-dom';
+import { Tabs, Tab, Box, Grid, Paper, Typography, Drawer, Divider, Button, FormControl, Select, MenuItem, InputLabel } from '@mui/material';
 import { styled } from '@mui/system';
 import Brokers from './Brokers';
 import Algo from './Algo';
 import Venues from './Venues';
+import Orders from './Orders';
 import CustomDatePicker from '../components/CustomDatePicker';
+
 const rightDrawerWidth = 300;
 
 const stats = [
@@ -31,19 +33,18 @@ const StatisticBox = styled(Paper)(({ theme, negative }) => ({
 export default function TabbedPage() {
   const navigate = useNavigate();
   const location = useLocation();
-  const currentHash = location.hash ? location.hash.slice(1) : 'brokers';
+  const currentTab = location.pathname.split('/')[2] || 'orders';
 
   const handleChange = (event, newValue) => {
-    navigate(`#${newValue}`);
+    navigate(`/trade-performance/${newValue}`);
   };
 
   const [errors, setErrors] = useState({});
   const [dateRange, setDateRange] = useState('');
   const [startDate, setStartDate] = useState('');
-  const [endDate, setendDate] = useState('');
+  const [endDate, setEndDate] = useState('');
 
   const handleFieldChange = (field, value) => {
-    console.log('im error to be included')
     if (errors[field]) {
       setErrors((prevErrors) => {
         const newErrors = { ...prevErrors };
@@ -53,7 +54,6 @@ export default function TabbedPage() {
     }
 
     switch (field) {
-  
       case 'dateRange':
         setDateRange(value);
         break;
@@ -61,7 +61,7 @@ export default function TabbedPage() {
         setStartDate(value);
         break;
       case 'endDate':
-        setendDate(value);
+        setEndDate(value);
         break;
       default:
         break;
@@ -69,40 +69,42 @@ export default function TabbedPage() {
   };
 
   useEffect(() => {
-    const hash = location.hash ? location.hash.slice(1) : 'brokers';
-    if (currentHash !== hash) {
-      navigate(`#${hash}`);
+    const tab = location.pathname.split('/')[2] || 'orders';
+    if (currentTab !== tab) {
+      navigate(`/trade-performance/${tab}`);
     }
-  }, [location.hash, navigate, currentHash]);
+  }, [location.pathname, navigate, currentTab]);
 
   return (
     <Box sx={{ display: 'flex' }}>
-  
-
       <Box component="main" sx={{ flexGrow: 1, p: 3, display: 'flex', flexDirection: 'column' }}>
+        <Typography variant="h5" gutterBottom>Trade Performance</Typography>
         <Grid container spacing={2} sx={{ mb: 2 }}>
           {stats.map((stat, index) => {
             const isNegative = parseFloat(stat.value) < 0;
             return (
-              <Grid item xs={12} sm={6} md={4} lg={2} key={index}>
-                <StatisticBox negative={isNegative}>
-                  <Typography variant="subtitle2">{stat.label}</Typography>
+              <Grid item xs={12} sm={6} md={4} lg={2.4} key={index}>
+                <StatisticBox negative={isNegative ? 'true' : undefined}>
+                <Typography variant="subtitle2">{stat.label}</Typography>
                   <Typography variant="h6">{stat.value}</Typography>
                 </StatisticBox>
               </Grid>
             );
           })}
         </Grid>
-        <Tabs value={currentHash} onChange={handleChange}>
+        <Tabs value={currentTab} onChange={handleChange}>
+          <Tab label="Orders" value="orders" />
           <Tab label="Brokers" value="brokers" />
           <Tab label="Venues" value="venues" />
           <Tab label="Algos" value="algos" />
         </Tabs>
         <Box sx={{ padding: 2, flexGrow: 1 }}>
-          {currentHash === 'brokers' && <Brokers />}
-          {currentHash === 'venues' && <Venues />}
-          {currentHash === 'algos' && <Algo />}
-
+          <Routes>
+            <Route path="orders" element={<Orders />} />
+            <Route path="brokers" element={<Brokers />} />
+            <Route path="venues" element={<Venues />} />
+            <Route path="algos" element={<Algo />} />
+          </Routes>
         </Box>
       </Box>
 
@@ -122,9 +124,9 @@ export default function TabbedPage() {
           <Typography variant="h6" gutterBottom>Data Explorer</Typography>
           <Divider />
           <Box sx={{ mt: 2 }}>
-            <Typography variant="body1" sx={{mb: 2}}>This Dataset Includes</Typography>
+            <Typography variant="body1" sx={{ mb: 2 }}>This Dataset Includes</Typography>
 
-            <FormControl sx={{mb: 2}} variant="outlined" fullWidth error={!!errors.orderTypes}>
+            <FormControl sx={{ mb: 2 }} variant="outlined" fullWidth error={!!errors.orderTypes}>
               <InputLabel>Date Range</InputLabel>
               <Select
                 value={dateRange}
@@ -136,26 +138,24 @@ export default function TabbedPage() {
               </Select>
               {errors.dateRange && <p style={{ color: 'red' }}>Required</p>}
             </FormControl>
-            <Box sx={{mb: 2}}>
-            <CustomDatePicker
-              label="Start Date"
-              value={startDate}
-              onChange={(e) => handleFieldChange('startDate', e.target.value)}
-              error={!!errors.startDate}
-              helperText={errors.startDate ? 'Required' : ''}
-            />
+            <Box sx={{ mb: 2 }}>
+              <CustomDatePicker
+                label="Start Date"
+                value={startDate}
+                onChange={(e) => handleFieldChange('startDate', e.target.value)}
+                error={!!errors.startDate}
+                helperText={errors.startDate ? 'Required' : ''}
+              />
             </Box>
-            <Box sx={{mb: 2}}>
-            <CustomDatePicker
-              label="End Date"
-              value={endDate}
-              onChange={(e) => handleFieldChange('endDate', e.target.value)}
-              error={!!errors.endDate}
-              helperText={errors.endDate ? 'Required' : ''}
-            />
-                </Box>
-            
-            
+            <Box sx={{ mb: 2 }}>
+              <CustomDatePicker
+                label="End Date"
+                value={endDate}
+                onChange={(e) => handleFieldChange('endDate', e.target.value)}
+                error={!!errors.endDate}
+                helperText={errors.endDate ? 'Required' : ''}
+              />
+            </Box>
             <Button variant="contained" sx={{ mt: 2, width: '100%' }}>Load New Dataset</Button>
           </Box>
           <Divider sx={{ mt: 2 }} />

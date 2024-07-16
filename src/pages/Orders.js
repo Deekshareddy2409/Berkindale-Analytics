@@ -1,0 +1,139 @@
+
+
+import { Box, Grid, Paper } from '@mui/material';
+import React from 'react';
+import Bar from '../components/Charts/Bar';
+import MultiLineChart from '../components/Charts/MultiLineChart';
+
+const generateRandomValues = (min, max) => Array.from({ length: 10 }, () => Math.floor(Math.random() * (max - min + 1)) + min);
+
+const data = [
+  { time: '2023-01-01', open: 0, high: 5, low: 0, close: 5 },
+  { time: '2023-01-02', open: 0, high: 0, low: -3, close: -3 },
+  { time: '2023-01-03', open: 0, high: 2, low: 0, close: 2 },
+  { time: '2023-01-04', open: 0, high: 4, low: 0, close: 4 },
+  { time: '2023-01-05', open: 0, high: 0, low: -1, close: -1 },
+];
+
+const multiLineData = [
+  {
+    label: 'Algo1',
+    color: 'blue',
+    data: [
+      { value: generateRandomValues(0, 60)[0], time: 1642425322 },
+      { value: generateRandomValues(0, 60)[1], time: 1642511722 },
+      { value: generateRandomValues(0, 60)[2], time: 1642598122 },
+      { value: generateRandomValues(0, 60)[3], time: 1642684522 },
+      { value: generateRandomValues(0, 60)[4], time: 1642770922 },
+      { value: generateRandomValues(0, 60)[5], time: 1642857322 },
+      { value: generateRandomValues(0, 60)[6], time: 1642943722 },
+      { value: generateRandomValues(0, 60)[7], time: 1643030122 },
+      { value: generateRandomValues(0, 60)[8], time: 1643116522 },
+      { value: generateRandomValues(0, 60)[9], time: 1643202922 },
+    ],
+  },
+  {
+    label: 'Algo2',
+    color: 'red',
+    data: [
+      { value: generateRandomValues(0, 60)[0], time: 1642425322 },
+      { value: generateRandomValues(0, 60)[1], time: 1642511722 },
+      { value: generateRandomValues(0, 60)[2], time: 1642598122 },
+      { value: generateRandomValues(0, 60)[3], time: 1642684522 },
+      { value: generateRandomValues(0, 60)[4], time: 1642770922 },
+      { value: generateRandomValues(0, 60)[5], time: 1642857322 },
+      { value: generateRandomValues(0, 60)[6], time: 1642943722 },
+      { value: generateRandomValues(0, 60)[7], time: 1643030122 },
+      { value: generateRandomValues(0, 60)[8], time: 1643116522 },
+      { value: generateRandomValues(0, 60)[9], time: 1643202922 },
+    ],
+  },
+  {
+    label: 'Algo3',
+    color: 'green',
+    data: [
+      { value: generateRandomValues(0, 60)[0], time: 1642425322 },
+      { value: generateRandomValues(0, 60)[1], time: 1642511722 },
+      { value: generateRandomValues(0, 60)[2], time: 1642598122 },
+      { value: generateRandomValues(0, 60)[3], time: 1642684522 },
+      { value: generateRandomValues(0, 60)[4], time: 1642770922 },
+      { value: generateRandomValues(0, 60)[5], time: 1642857322 },
+      { value: generateRandomValues(0, 60)[6], time: 1642943722 },
+      { value: generateRandomValues(0, 60)[7], time: 1643030122 },
+      { value: generateRandomValues(0, 60)[8], time: 1643116522 },
+      { value: generateRandomValues(0, 60)[9], time: 1643202922 },
+    ],
+  },
+  {
+    label: 'Algo4',
+    color: 'orange',
+    data: [
+      { value: generateRandomValues(0, 60)[0], time: 1642425322 },
+      { value: generateRandomValues(0, 60)[1], time: 1642511722 },
+      { value: generateRandomValues(0, 60)[2], time: 1642598122 },
+      { value: generateRandomValues(0, 60)[3], time: 1642684522 },
+      { value: generateRandomValues(0, 60)[4], time: 1642770922 },
+      { value: generateRandomValues(0, 60)[5], time: 1642857322 },
+      { value: generateRandomValues(0, 60)[6], time: 1642943722 },
+      { value: generateRandomValues(0, 60)[7], time: 1643030122 },
+      { value: generateRandomValues(0, 60)[8], time: 1643116522 },
+      { value: generateRandomValues(0, 60)[9], time: 1643202922 },
+    ],
+  },
+  {
+    label: 'Algo5',
+    color: 'purple',
+    data: [
+      { value: generateRandomValues(0, 60)[0], time: 1642425322 },
+      { value: generateRandomValues(0, 60)[1], time: 1642511722 },
+      { value: generateRandomValues(0, 60)[2], time: 1642598122 },
+      { value: generateRandomValues(0, 60)[3], time: 1642684522 },
+      { value: generateRandomValues(0, 60)[4], time: 1642770922 },
+      { value: generateRandomValues(0, 60)[5], time: 1642857322 },
+      { value: generateRandomValues(0, 60)[6], time: 1642943722 },
+      { value: generateRandomValues(0, 60)[7], time: 1643030122 },
+      { value: generateRandomValues(0, 60)[8], time: 1643116522 },
+      { value: generateRandomValues(0, 60)[9], time: 1643202922 },
+    ],
+  },
+];
+
+export default function Orders() {
+  return (
+    <Box>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={6}>
+          <Paper>
+            
+          <MultiLineChart data={multiLineData.slice(0, 4)} title="Price Path" />
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Paper>
+            
+          <MultiLineChart data={multiLineData.slice(0, 4)} title="Adverse Selection By side" />
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Paper>
+            
+          <Bar data={data} title="Arrival Cost by Side" />
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Paper>
+            
+          <Bar data={data} title="Arrival Cost by Broker" />
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={4}>
+          <Paper>
+            
+          <Bar data={data} title="Arrival Cost by Algo" />
+          </Paper>
+        </Grid>
+        
+      </Grid>
+    </Box>
+  );
+}
