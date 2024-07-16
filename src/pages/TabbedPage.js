@@ -92,7 +92,13 @@ export default function TabbedPage() {
             );
           })}
         </Grid>
-        <Tabs value={currentTab} onChange={handleChange}>
+        <Tabs 
+         value={currentTab}
+         onChange={handleChange}
+         variant="fullWidth"
+         indicatorColor="primary"
+         textColor="primary"
+        >
           <Tab label="Orders" value="orders" />
           <Tab label="Brokers" value="brokers" />
           <Tab label="Venues" value="venues" />
