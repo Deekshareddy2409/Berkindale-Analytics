@@ -9,22 +9,16 @@ import LayersIcon from '@mui/icons-material/Layers';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 
-const NestedListItem = ({ text, icon, children, drawerOpen }) => {
+function NestedListItem({ text, icon, children, drawerOpen }) {
   const [open, setOpen] = React.useState(false);
-  const navigate = useNavigate();
 
   const handleClick = () => {
     setOpen(!open);
   };
 
-  const handleNavigation = (path) => {
-    navigate(path);
-    setOpen(true);  // Keep the nested items expanded when navigating
-  };
-
   return (
     <React.Fragment>
-      <ListItemButton onClick={() => handleNavigation('/reports')}>
+      <ListItemButton onClick={handleClick}>
         <ListItemIcon>{icon}</ListItemIcon>
         <ListItemText primary={text} />
         {open ? <ExpandLess /> : <ExpandMore />}
@@ -36,7 +30,7 @@ const NestedListItem = ({ text, icon, children, drawerOpen }) => {
       )}
     </React.Fragment>
   );
-};
+}
 
 export const mainListItems = (drawerOpen) => (
   <React.Fragment>
