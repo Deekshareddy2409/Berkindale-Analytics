@@ -77,9 +77,9 @@ export default function TabbedPage() {
     }
 
     switch (field) {
-      case 'dateRange':
-        setDateRange(value);
-        break;
+      // case 'dateRange':
+      //   setDateRange(value);
+      //   break;
       case 'startDate':
         setStartDate(value);
         break;
@@ -89,36 +89,36 @@ export default function TabbedPage() {
       case 'selectedTicker':
         setSelectedTicker(value);
         break;
-      case 'selectedDate':
-        setSelectedDate(value);
-        break;
+      // case 'selectedDate':
+      //   setSelectedDate(value);
+      //   break;
       case 'orderTypes':
         setOrderTypes(value);
         break;
-      case 'valueTraded':
-        setValueTraded(value);
-        break;
-      case 'commission':
-        setCommission(value);
-        break;
-      case 'parentOrders':
-        setParentOrders(value);
-        break;
-      case 'securities':
-        setSecurities(value);
-        break;
-      case 'brokers':
-        setBrokers(value);
-        break;
-      case 'algos':
-        setAlgos(value);
-        break;
-      case 'arrivalPerformance':
-        setArrivalPerformance(value);
-        break;
-      case 'vwapPerformance':
-        setVwapPerformance(value);
-        break;
+      // case 'valueTraded':
+      //   setValueTraded(value);
+      //   break;
+      // case 'commission':
+      //   setCommission(value);
+      //   break;
+      // case 'parentOrders':
+      //   setParentOrders(value);
+      //   break;
+      // case 'securities':
+      //   setSecurities(value);
+      //   break;
+      // case 'brokers':
+      //   setBrokers(value);
+      //   break;
+      // case 'algos':
+      //   setAlgos(value);
+      //   break;
+      // case 'arrivalPerformance':
+      //   setArrivalPerformance(value);
+      //   break;
+      // case 'vwapPerformance':
+      //   setVwapPerformance(value);
+      //   break;
       default:
         break;
     }
@@ -134,16 +134,16 @@ export default function TabbedPage() {
   const handleSubmit = () => {
     const newErrors = {};
     if (selectedTicker.length === 0) newErrors.selectedTicker = true;
-    if (!selectedDate) newErrors.selectedDate = true;
+    // if (!selectedDate) newErrors.selectedDate = true;
     if (!orderTypes) newErrors.orderTypes = true;
-    if (!valueTraded) newErrors.valueTraded = true;
-    if (!commission) newErrors.commission = true;
-    if (!parentOrders) newErrors.parentOrders = true;
-    if (!securities) newErrors.securities = true;
-    if (!brokers) newErrors.brokers = true;
-    if (!algos) newErrors.algos = true;
-    if (!arrivalPerformance) newErrors.arrivalPerformance = true;
-    if (!vwapPerformance) newErrors.vwapPerformance = true;
+    // if (!valueTraded) newErrors.valueTraded = true;
+    // if (!commission) newErrors.commission = true;
+    // if (!parentOrders) newErrors.parentOrders = true;
+    // if (!securities) newErrors.securities = true;
+    // if (!brokers) newErrors.brokers = true;
+    // if (!algos) newErrors.algos = true;
+    // if (!arrivalPerformance) newErrors.arrivalPerformance = true;
+    // if (!vwapPerformance) newErrors.vwapPerformance = true;
 
     setErrors(newErrors);
   };
@@ -220,7 +220,7 @@ export default function TabbedPage() {
           <Typography variant="h6" gutterBottom>Data Explorer</Typography>
           <Divider />
           <Box sx={{ mt: 2 }}>
-            <Typography variant="body1" sx={{ mb: 2 }}>This Dataset Includes</Typography>
+            {/* <Typography variant="body1" sx={{ mb: 2 }}>This Dataset Includes</Typography> */}
 
             {/* <Box sx={{ mb: 2 }}>
               <FormControl variant="outlined" fullWidth error={!!errors.orderTypes}>
@@ -235,9 +235,31 @@ export default function TabbedPage() {
                 </Select>
                 {errors.dateRange && <p style={{ color: 'red' }}>Required</p>}
               </FormControl>
-            </Box>
+            </Box> */}
+
+            
 
             <Box sx={{ mb: 2 }}>
+              <ComboBoxWithChips
+                value={selectedTicker}
+                onChange={(event, newValue) => handleFieldChange('selectedTicker', newValue)}
+                error={!!errors.selectedTicker}
+                helperText={errors.selectedTicker ? 'Required' : ''}
+                options={tickers}
+              />
+            </Box>
+            
+            {/* <Box sx={{ mb: 2 }}>
+              <CustomDatePicker
+                label="Select Date"
+                value={selectedDate}
+                onChange={(e) => handleFieldChange('selectedDate', e.target.value)}
+                error={!!errors.selectedDate}
+                helperText={errors.selectedDate ? 'Required' : ''}
+              />
+            </Box> */}
+
+<Box sx={{ mb: 2 }}>
               <CustomDatePicker
                 label="Start Date"
                 value={startDate}
@@ -254,26 +276,6 @@ export default function TabbedPage() {
                 onChange={(e) => handleFieldChange('endDate', e.target.value)}
                 error={!!errors.endDate}
                 helperText={errors.endDate ? 'Required' : ''}
-              />
-            </Box> */}
-
-            <Box sx={{ mb: 2 }}>
-              <ComboBoxWithChips
-                value={selectedTicker}
-                onChange={(event, newValue) => handleFieldChange('selectedTicker', newValue)}
-                error={!!errors.selectedTicker}
-                helperText={errors.selectedTicker ? 'Required' : ''}
-                options={tickers}
-              />
-            </Box>
-            
-            <Box sx={{ mb: 2 }}>
-              <CustomDatePicker
-                label="Select Date"
-                value={selectedDate}
-                onChange={(e) => handleFieldChange('selectedDate', e.target.value)}
-                error={!!errors.selectedDate}
-                helperText={errors.selectedDate ? 'Required' : ''}
               />
             </Box>
 
@@ -292,7 +294,7 @@ export default function TabbedPage() {
               </FormControl>
             </Box>
 
-            <Box sx={{ mb: 2 }}>
+            {/* <Box sx={{ mb: 2 }}>
               <TextField
                 label="Value Traded (mm)"
                 variant="outlined"
@@ -402,7 +404,7 @@ export default function TabbedPage() {
                 error={!!errors.algos}
                 helperText={errors.algos ? 'Required' : ''}
               />
-            </Box>
+            </Box> */}
 
             <Button 
               variant="contained" 
