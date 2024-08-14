@@ -292,7 +292,7 @@ export default function TabbedPage() {
                 </Select>
                 {errors.orderTypes && <p style={{ color: 'red' }}>Required</p>}
               </FormControl>
-            </Box>
+            </Box> 
 
             {/* <Box sx={{ mb: 2 }}>
               <TextField
